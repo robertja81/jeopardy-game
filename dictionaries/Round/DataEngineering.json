@@ -1,0 +1,109 @@
+{
+  "difficulty": 8,
+  "categories": [
+    {
+      "name": "Data Warehousing",
+      "questions": [
+        { "question": "This type of database workload optimizes for read-heavy analytical queries rather than transactional processing", "answer": "OLAP", "value": 100 },
+        { "question": "This term describes a smaller, department-focused subset of a data warehouse", "answer": "A data mart", "value": 200 },
+        { "question": "This process extracts data from source systems, transforms it, and loads it into a warehouse", "answer": "ETL", "value": 300 },
+        { "question": "This alternative to ETL loads raw data first and transforms it inside the warehouse", "answer": "ELT", "value": 400 },
+        { "question": "This type of warehouse table stores descriptive, relatively static context, such as customer or product details", "answer": "A dimension table", "value": 500 },
+        { "question": "This type of warehouse table stores measurable, quantitative business events, typically with foreign keys to dimensions", "answer": "A fact table", "value": 600 },
+        { "question": "This data warehousing pioneer, a rival of Ralph Kimball, championed a top-down, normalized enterprise data model", "answer": "Bill Inmon", "value": 700 },
+        { "question": "This term describes a centralized repository storing structured historical data for reporting and analysis, as distinct from an operational database", "answer": "A data warehouse", "value": 800 }
+      ]
+    },
+    {
+      "name": "Azure",
+      "questions": [
+        { "question": "This Microsoft cloud platform offers computing, storage, and analytics services, competing with AWS and Google Cloud", "answer": "Microsoft Azure", "value": 100 },
+        { "question": "This Azure service orchestrates and automates data movement and transformation pipelines", "answer": "Azure Data Factory", "value": 200 },
+        { "question": "This Azure analytics service unifies SQL and Spark engines, combining big data and data warehousing", "answer": "Azure Synapse Analytics", "value": 300 },
+        { "question": "This Azure storage service, built on Azure Blob Storage, is optimized for big data analytics", "answer": "Azure Data Lake Storage", "value": 400 },
+        { "question": "This fully managed relational database service in Azure is based on SQL Server", "answer": "Azure SQL Database", "value": 500 },
+        { "question": "This Azure service provides a managed environment for running Apache Spark-based analytics, built with the original creators of Spark", "answer": "Azure Databricks", "value": 600 },
+        { "question": "This Azure identity service, now branded Microsoft Entra ID, manages user authentication and access across Microsoft cloud services", "answer": "Azure Active Directory", "value": 700 },
+        { "question": "This Azure resource organizes and manages related cloud resources as a single logical unit for billing and access control", "answer": "A resource group", "value": 800 }
+      ]
+    },
+    {
+      "name": "Snowflake",
+      "questions": [
+        { "question": "This cloud data platform separates storage and compute, allowing each to scale independently", "answer": "Snowflake", "value": 100 },
+        { "question": "In Snowflake, this term describes a cluster of compute resources used to run queries, which can be resized or suspended independently", "answer": "A virtual warehouse", "value": 200 },
+        { "question": "This Snowflake feature allows querying data as it existed at a previous point in time, useful for recovering accidentally deleted data", "answer": "Time Travel", "value": 300 },
+        { "question": "This Snowflake feature creates an instant, storage-efficient copy of a database, schema, or table without duplicating the underlying data", "answer": "Zero-copy cloning", "value": 400 },
+        { "question": "This semi-structured data type in Snowflake can store JSON, Avro, or Parquet data directly in a column", "answer": "VARIANT", "value": 500 },
+        { "question": "This Snowflake object defines a scheduled, recurring execution of SQL statements", "answer": "A task", "value": 600 },
+        { "question": "This Snowflake feature automatically and continuously loads data from files as soon as they appear in a stage", "answer": "Snowpipe", "value": 700 },
+        { "question": "This Snowflake object tracks row-level changes made to a table, enabling change data capture", "answer": "A stream", "value": 800 }
+      ]
+    },
+    {
+      "name": "dbt",
+      "questions": [
+        { "question": "This acronym is the name of the open-source tool that lets analysts transform warehouse data by writing SQL SELECT statements", "answer": "dbt (data build tool)", "value": 100 },
+        { "question": "dbt models are written in SQL enhanced with this templating language, which enables macros and control structures", "answer": "Jinja", "value": 200 },
+        { "question": "This dbt command builds all models in a project according to their dependency order", "answer": "dbt run", "value": 300 },
+        { "question": "This dbt feature lets you write assertions about your data, such as uniqueness or not-null checks, that run as part of the build", "answer": "dbt tests", "value": 400 },
+        { "question": "This dbt function lets one model reference another so dbt can resolve build order automatically, instead of hardcoding a table name", "answer": "ref()", "value": 500 },
+        { "question": "This dbt configuration determines whether a model is built as a table, a view, or updated incrementally", "answer": "Materialization", "value": 600 },
+        { "question": "This dbt feature automatically generates documentation and a visual lineage graph of a project's models", "answer": "dbt docs", "value": 700 },
+        { "question": "This dbt object represents a raw, unmodified source table that models can reference and test freshness against", "answer": "A source", "value": 800 }
+      ]
+    },
+    {
+      "name": "Databricks",
+      "questions": [
+        { "question": "This company, founded by the original creators of Apache Spark, created the Databricks platform", "answer": "Databricks", "value": 100 },
+        { "question": "This open-source storage layer, developed by Databricks, adds ACID transactions and versioning to data lakes", "answer": "Delta Lake", "value": 200 },
+        { "question": "This Databricks concept combines the reliability of data warehouses with the flexibility of data lakes", "answer": "A lakehouse", "value": 300 },
+        { "question": "This Databricks feature provides unified governance for data and AI assets across workspaces", "answer": "Unity Catalog", "value": 400 },
+        { "question": "This interactive, web-based interface in Databricks lets users write and run code in cells, mixing languages like Python, SQL, and Scala", "answer": "A notebook", "value": 500 },
+        { "question": "This term describes a set of compute resources in Databricks that run notebooks and jobs", "answer": "A cluster", "value": 600 },
+        { "question": "This Delta Lake SQL operation combines insert, update, and delete logic into a single atomic statement", "answer": "MERGE", "value": 700 },
+        { "question": "This Databricks feature lets you schedule and orchestrate notebooks, scripts, or pipelines to run automatically", "answer": "Databricks Workflows", "value": 800 }
+      ]
+    },
+    {
+      "name": "Star Schema & Modeling",
+      "questions": [
+        { "question": "This data warehouse schema design features a central fact table connected directly to multiple denormalized dimension tables", "answer": "Star schema", "value": 100 },
+        { "question": "This variant of the star schema normalizes dimension tables into multiple related tables, resembling its namesake shape", "answer": "Snowflake schema", "value": 200 },
+        { "question": "This type of dimension changes over time and requires a strategy, such as Type 1 or Type 2, for tracking historical values", "answer": "A slowly changing dimension", "value": 300 },
+        { "question": "This slowly changing dimension strategy overwrites old values with new ones, losing history", "answer": "Type 1", "value": 400 },
+        { "question": "This slowly changing dimension strategy preserves history by adding a new row for each change, often with effective date columns", "answer": "Type 2", "value": 500 },
+        { "question": "This special dimension represents a date or time period, typically with pre-computed attributes like day of week or fiscal quarter", "answer": "A date dimension", "value": 600 },
+        { "question": "This term describes the level of detail captured by a single row in a fact table, such as \"one row per transaction line\"", "answer": "Grain", "value": 700 },
+        { "question": "This data modeling methodology, championed by Ralph Kimball, emphasizes denormalized star schemas built bottom-up by business process", "answer": "Kimball methodology", "value": 800 }
+      ]
+    },
+    {
+      "name": "SQL & Optimization",
+      "questions": [
+        { "question": "This SQL clause filters individual rows before any grouping occurs", "answer": "WHERE", "value": 100 },
+        { "question": "This SQL clause filters groups after aggregation has occurred", "answer": "HAVING", "value": 200 },
+        { "question": "This type of SQL join returns only rows with matching values in both tables", "answer": "Inner join", "value": 300 },
+        { "question": "This type of SQL join returns all rows from the left table, plus matched rows from the right, with NULLs where there's no match", "answer": "Left join", "value": 400 },
+        { "question": "This type of SQL function, such as ROW_NUMBER or RANK, calculates across a set of related rows without collapsing them into groups", "answer": "A window function", "value": 500 },
+        { "question": "This database object speeds up data retrieval on a table at the cost of extra storage and slower writes", "answer": "An index", "value": 600 },
+        { "question": "This term describes the strategy a database engine chooses to execute a query, inspectable to diagnose performance issues", "answer": "A query execution plan", "value": 700 },
+        { "question": "This SQL technique temporarily materializes a named result set for use within a single query, often used for readability or recursion", "answer": "A common table expression", "value": 800 }
+      ]
+    },
+    {
+      "name": "Big Data",
+      "questions": [
+        { "question": "This open-source distributed computing framework processes large datasets in memory, much faster than its MapReduce-based predecessor", "answer": "Apache Spark", "value": 100 },
+        { "question": "This original Apache framework for distributed storage and batch processing introduced the MapReduce paradigm", "answer": "Apache Hadoop", "value": 200 },
+        { "question": "This Hadoop component is a distributed file system designed to store very large files across many machines", "answer": "HDFS", "value": 300 },
+        { "question": "This Spark abstraction represents an immutable, distributed collection of objects that can be processed in parallel", "answer": "RDD", "value": 400 },
+        { "question": "This process divides a large dataset into smaller chunks distributed across nodes, enabling parallel processing", "answer": "Partitioning", "value": 500 },
+        { "question": "This open-source columnar storage file format is optimized for analytics workloads and widely used in big data pipelines", "answer": "Apache Parquet", "value": 600 },
+        { "question": "This open-source distributed messaging system is commonly used to build real-time streaming data pipelines", "answer": "Apache Kafka", "value": 700 },
+        { "question": "This term describes performance degradation caused by an uneven distribution of data or work across partitions or nodes", "answer": "Data skew", "value": 800 }
+      ]
+    }
+  ]
+}

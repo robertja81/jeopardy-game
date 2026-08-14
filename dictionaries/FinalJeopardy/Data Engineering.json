@@ -1,0 +1,16 @@
+{
+  "clues": [
+    {
+      "question": "This data warehousing methodology, a rival of Ralph Kimball's dimensional approach, advocates for a normalized enterprise data model built top-down.",
+      "answer": "Inmon methodology"
+    },
+    {
+      "question": "This architectural shift, central to Snowflake and other modern cloud data platforms, allows storage and compute to scale independently of each other.",
+      "answer": "Separation (decoupling) of storage and compute"
+    },
+    {
+      "question": "This open table format, originally developed at Netflix, brings ACID transactions and schema evolution to data lake tables and is now supported by both Snowflake and Databricks.",
+      "answer": "Apache Iceberg"
+    }
+  ]
+}
