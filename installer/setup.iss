@@ -4,7 +4,7 @@
 ; build-release\JeopardyGame.exe (see README.md for the CMake commands).
 
 #define MyAppName "Jeopardy Game"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "robertja81"
 #define MyAppURL "https://github.com/robertja81/jeopardy-game"
 #define MyAppExeName "JeopardyGame.exe"
