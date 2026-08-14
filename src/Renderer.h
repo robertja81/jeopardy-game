@@ -17,4 +17,10 @@ constexpr COLORREF kBackgroundColor = RGB(10, 10, 60);
 // sized to `client`.
 void DrawFrame(HDC hdc, const RECT& client, const GameState& state);
 
+// Draws the studio splash/intro screen (pixel-art skunk mascot + animated
+// "SkunkWorks Studios" wordmark) into hdc, sized to `client`. Independent
+// of GameState -- this plays before any game state exists, purely driven
+// by `elapsedMs` (milliseconds since the intro started) for its animation.
+void DrawIntroScreen(HDC hdc, const RECT& client, int elapsedMs);
+
 } // namespace Renderer

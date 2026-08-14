@@ -76,6 +76,16 @@ private:
     // returns to Title. A no-op in any other screen.
     void OnEscapePressed();
 
+    // Fires every kIntroTimerIntervalMs while the studio splash screen is
+    // showing; advances introElapsedMs_ and either requests a repaint (for
+    // the bounce/typewriter animation) or ends the intro once its duration
+    // elapses.
+    void OnIntroTick();
+    // Ends the splash screen (early, via click/keypress, or once its
+    // duration elapses): stops the timer and reveals the Title screen's
+    // controls for the first time. Idempotent.
+    void EndIntro();
+
     // Resizes/repositions the window itself for `mode`, then repositions
     // every child control to match (see LayoutControls). No-op if `mode`
     // is already the current mode.
@@ -131,4 +141,13 @@ private:
     GameState gameState_;
 
     static constexpr int kEditControlId = 101;
+
+    // Studio splash screen, shown once at launch before the Title screen.
+    // Purely presentational -- independent of GameState, which already
+    // starts at AppState::Title underneath it.
+    bool showingIntro_ = true;
+    int introElapsedMs_ = 0;
+    static constexpr UINT_PTR kIntroTimerId = 1;
+    static constexpr UINT kIntroTimerIntervalMs = 50;
+    static constexpr int kIntroDurationMs = 3000;
 };

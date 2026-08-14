@@ -14,6 +14,61 @@ void FillBackground(HDC hdc, const RECT& client) {
     DeleteObject(bg);
 }
 
+// 16x16 pixel-art skunk mascot (front-facing, chibi), hand-authored as a
+// character grid: '.' = transparent (background shows through), 'B' =
+// black fur, 'W' = white stripe/eye highlight, 'P' = pink nose. The tail
+// drapes over the top as a wide puff, narrowing into the head, then the
+// body with two feet -- the white stripe runs unbroken from top to bottom
+// except where the nose interrupts it.
+constexpr int kSkunkSpriteSize = 16;
+const wchar_t* const kSkunkSprite[kSkunkSpriteSize] = {
+    L"....BBBWWBBB....",
+    L"..BBBBBWWBBBBB..",
+    L".BBBBBBWWBBBBBB.",
+    L".BBBBBBWWBBBBBB.",
+    L"..BBBBBWWBBBBB..",
+    L"....BBBWWBBB....",
+    L"....BBBWWBBB....",
+    L"....BWBWWBWB....",
+    L"....BBBWWBBB....",
+    L"....BBBPPBBB....",
+    L"...BBBBWWBBBB...",
+    L"...BBBBWWBBBB...",
+    L"...BBBBWWBBBB...",
+    L"...BBBBWWBBBB...",
+    L"....BBB..BBB....",
+    L"....BBB..BBB....",
+};
+
+// Draws the skunk sprite centered horizontally at `centerX`, top edge at
+// `topY + bobOffsetPx` (bobOffsetPx drives the idle bounce animation), at
+// `pixelSize` screen pixels per sprite pixel.
+void DrawSkunkSprite(HDC hdc, int centerX, int topY, int pixelSize, int bobOffsetPx) {
+    int spriteWidthPx = kSkunkSpriteSize * pixelSize;
+    int left = centerX - spriteWidthPx / 2;
+    int top = topY + bobOffsetPx;
+
+    for (int row = 0; row < kSkunkSpriteSize; ++row) {
+        for (int col = 0; col < kSkunkSpriteSize; ++col) {
+            wchar_t c = kSkunkSprite[row][col];
+            if (c == L'.') {
+                continue;
+            }
+            COLORREF color = (c == L'B')   ? RGB(20, 20, 20)
+                              : (c == L'W') ? RGB(250, 250, 250)
+                                            : RGB(230, 140, 170); // 'P' nose
+            RECT r;
+            r.left = left + col * pixelSize;
+            r.top = top + row * pixelSize;
+            r.right = r.left + pixelSize;
+            r.bottom = r.top + pixelSize;
+            HBRUSH brush = CreateSolidBrush(color);
+            FillRect(hdc, &r, brush);
+            DeleteObject(brush);
+        }
+    }
+}
+
 HFONT CreateUiFont(int pointSize, bool bold, const wchar_t* fontName = kGameFontName) {
     return CreateFontW(
         -pointSize, 0, 0, 0, bold ? FW_BOLD : FW_NORMAL, FALSE, FALSE, FALSE,
@@ -449,6 +504,41 @@ void DrawFrame(HDC hdc, const RECT& client, const GameState& state) {
             DrawGameOverScreen(hdc, client, state);
             break;
     }
+}
+
+void DrawIntroScreen(HDC hdc, const RECT& client, int elapsedMs) {
+    FillBackground(hdc, client);
+
+    // Gentle triangle-wave bounce, +/-6px over a 1-second cycle.
+    constexpr int kBounceAmplitude = 6;
+    constexpr int kBounceHalfPeriodMs = 500;
+    int phase = elapsedMs % (2 * kBounceHalfPeriodMs);
+    int bob = (phase < kBounceHalfPeriodMs)
+                  ? (-kBounceAmplitude + (2 * kBounceAmplitude * phase) / kBounceHalfPeriodMs)
+                  : (kBounceAmplitude -
+                     (2 * kBounceAmplitude * (phase - kBounceHalfPeriodMs)) / kBounceHalfPeriodMs);
+
+    int centerX = client.left + (client.right - client.left) / 2;
+    DrawSkunkSprite(hdc, centerX, 160, 10, bob); // 16 * 10 = 160px sprite
+
+    // Typewriter reveal of the wordmark, one character every 60ms. A fixed
+    // font size (not DrawAutoFitText) so the text doesn't visibly resize
+    // frame-to-frame as it grows.
+    static const std::wstring kWordmark = L"SkunkWorks Studios";
+    int revealCount = elapsedMs / 60;
+    if (revealCount > static_cast<int>(kWordmark.size())) {
+        revealCount = static_cast<int>(kWordmark.size());
+    }
+
+    RECT textRect = client;
+    textRect.top = 380;
+    textRect.bottom = 460;
+    DrawCenteredText(hdc, textRect, kWordmark.substr(0, revealCount), 44, RGB(255, 215, 0), true,
+                      kTitleFontName);
+
+    RECT hintRect = client;
+    hintRect.top = client.bottom - 60;
+    DrawCenteredText(hdc, hintRect, L"Click or press any key to skip", 16, RGB(150, 150, 170));
 }
 
 } // namespace Renderer

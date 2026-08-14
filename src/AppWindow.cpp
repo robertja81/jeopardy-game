@@ -115,9 +115,17 @@ LRESULT AppWindow::WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
         case WM_ERASEBKGND:
             return 1; // avoid flicker; WM_PAINT repaints the whole client area
         case WM_LBUTTONDOWN:
+            if (showingIntro_) {
+                EndIntro();
+                return 0;
+            }
             OnLButtonDown(GET_X_LPARAM(lParam), GET_Y_LPARAM(lParam));
             return 0;
         case WM_KEYDOWN:
+            if (showingIntro_) {
+                EndIntro();
+                return 0;
+            }
             // Reached when the main window itself has keyboard focus, i.e.
             // whenever the EDIT control is hidden (Board/Result/GameOver) --
             // e.g. the Result screen's "press Enter to continue". When the
@@ -127,6 +135,11 @@ LRESULT AppWindow::WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
                 OnSubmit();
             } else if (wParam == VK_ESCAPE) {
                 OnEscapePressed();
+            }
+            return 0;
+        case WM_TIMER:
+            if (wParam == kIntroTimerId) {
+                OnIntroTick();
             }
             return 0;
         case WM_COMMAND:
@@ -272,7 +285,10 @@ void AppWindow::OnCreate(HWND hwnd) {
     SetWindowSubclass(editControl_, &AppWindow::EditSubclassProc, 0,
                        reinterpret_cast<DWORD_PTR>(this));
 
-    SyncInputControlsToState();
+    // Controls stay hidden (their default CreateWindowExW state, since none
+    // were created with WS_VISIBLE) until the splash screen ends and calls
+    // SyncInputControlsToState() for the first time.
+    SetTimer(hwnd, kIntroTimerId, kIntroTimerIntervalMs, nullptr);
 }
 
 LRESULT CALLBACK AppWindow::EditSubclassProc(HWND hwnd, UINT msg, WPARAM wParam,
@@ -317,7 +333,11 @@ void AppWindow::OnPaint(HWND hwnd) {
     HBITMAP oldBitmap = static_cast<HBITMAP>(SelectObject(memDC, memBitmap));
 
     RECT canvasRect = {0, 0, Layout::kClientWidth, Layout::kClientHeight};
-    Renderer::DrawFrame(memDC, canvasRect, gameState_);
+    if (showingIntro_) {
+        Renderer::DrawIntroScreen(memDC, canvasRect, introElapsedMs_);
+    } else {
+        Renderer::DrawFrame(memDC, canvasRect, gameState_);
+    }
 
     BitBlt(hdc, canvasOrigin_.x, canvasOrigin_.y, Layout::kClientWidth, Layout::kClientHeight,
            memDC, 0, 0, SRCCOPY);
@@ -471,6 +491,25 @@ void AppWindow::OnEscapePressed() {
     }
     gameState_.QuitToMainMenu();
     SyncInputControlsToState();
+    InvalidateRect(hwnd_, nullptr, FALSE);
+}
+
+void AppWindow::OnIntroTick() {
+    introElapsedMs_ += static_cast<int>(kIntroTimerIntervalMs);
+    if (introElapsedMs_ >= kIntroDurationMs) {
+        EndIntro();
+        return;
+    }
+    InvalidateRect(hwnd_, nullptr, FALSE);
+}
+
+void AppWindow::EndIntro() {
+    if (!showingIntro_) {
+        return; // already ended (e.g. a click racing the timer's own end)
+    }
+    showingIntro_ = false;
+    KillTimer(hwnd_, kIntroTimerId);
+    SyncInputControlsToState(); // first time controls are shown -- reveals the Title screen
     InvalidateRect(hwnd_, nullptr, FALSE);
 }
 
