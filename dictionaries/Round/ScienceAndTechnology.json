@@ -1,0 +1,109 @@
+{
+  "difficulty": 6,
+  "categories": [
+    {
+      "name": "Physics",
+      "questions": [
+        { "question": "This law states that for every action there is an equal and opposite reaction", "answer": "Newton's Third Law", "value": 100 },
+        { "question": "This physicist developed the theory of general relativity", "answer": "Albert Einstein", "value": 200 },
+        { "question": "This unit measures electrical resistance", "answer": "The Ohm", "value": 300 },
+        { "question": "This subatomic particle, discovered in 2012 at the LHC, gives other particles mass", "answer": "The Higgs Boson", "value": 400 },
+        { "question": "This physicist's equation, E equals m c squared, relates mass and energy", "answer": "Albert Einstein", "value": 500 },
+        { "question": "This law states that energy cannot be created or destroyed, only transformed", "answer": "The Law of Conservation of Energy", "value": 600 },
+        { "question": "This branch of physics studies matter and energy at the atomic and subatomic scale", "answer": "Quantum mechanics", "value": 700 },
+        { "question": "This physicist formulated the uncertainty principle, stating position and momentum cannot both be precisely known", "answer": "Werner Heisenberg", "value": 800 }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "questions": [
+        { "question": "This chemical symbol represents the element oxygen", "answer": "O", "value": 100 },
+        { "question": "This chart organizes elements by atomic number and properties", "answer": "The Periodic Table", "value": 200 },
+        { "question": "This scale measures how acidic or basic a solution is", "answer": "The pH scale", "value": 300 },
+        { "question": "This scientist is credited with creating the first widely recognized periodic table", "answer": "Dmitri Mendeleev", "value": 400 },
+        { "question": "This noble gas, atomic number 2, is used to fill balloons because it's lighter than air", "answer": "Helium", "value": 500 },
+        { "question": "This process combines two light atomic nuclei into a heavier one, releasing energy, as occurs in stars", "answer": "Nuclear fusion", "value": 600 },
+        { "question": "This type of bond involves the sharing of electron pairs between atoms", "answer": "A covalent bond", "value": 700 },
+        { "question": "This French chemist is considered the father of modern chemistry and discovered the law of conservation of mass", "answer": "Antoine Lavoisier", "value": 800 }
+      ]
+    },
+    {
+      "name": "Biology",
+      "questions": [
+        { "question": "This organelle is known as the \"powerhouse of the cell\"", "answer": "The Mitochondria", "value": 100 },
+        { "question": "This process allows plants to convert sunlight into chemical energy", "answer": "Photosynthesis", "value": 200 },
+        { "question": "This scientist proposed the theory of evolution by natural selection", "answer": "Charles Darwin", "value": 300 },
+        { "question": "This molecule carries genetic instructions in living organisms, shaped like a double helix", "answer": "DNA", "value": 400 },
+        { "question": "This process of cell division produces two genetically identical daughter cells", "answer": "Mitosis", "value": 500 },
+        { "question": "This scientist, an Austrian monk, is considered the father of modern genetics for his work on pea plants", "answer": "Gregor Mendel", "value": 600 },
+        { "question": "This system in the body is responsible for defending against pathogens", "answer": "The Immune System", "value": 700 },
+        { "question": "This scientist co-discovered the double-helix structure of DNA with Watson, based partly on Rosalind Franklin's X-ray images", "answer": "Francis Crick", "value": 800 }
+      ]
+    },
+    {
+      "name": "Astronomy",
+      "questions": [
+        { "question": "This is the closest star to Earth", "answer": "The Sun", "value": 100 },
+        { "question": "This is the largest planet in our solar system", "answer": "Jupiter", "value": 200 },
+        { "question": "This red planet is the fourth from the sun", "answer": "Mars", "value": 300 },
+        { "question": "This phenomenon occurs when the Moon passes between the Earth and Sun, blocking sunlight", "answer": "A solar eclipse", "value": 400 },
+        { "question": "This galaxy is home to our solar system", "answer": "The Milky Way", "value": 500 },
+        { "question": "This dense remnant of a collapsed massive star has gravity so strong that not even light can escape", "answer": "A black hole", "value": 600 },
+        { "question": "This astronomer's telescope observations supported the heliocentric model, leading to his conflict with the Church", "answer": "Galileo Galilei", "value": 700 },
+        { "question": "This unit of distance equals the distance light travels in one year", "answer": "A light-year", "value": 800 }
+      ]
+    },
+    {
+      "name": "Inventions",
+      "questions": [
+        { "question": "This inventor is credited with inventing the telephone", "answer": "Alexander Graham Bell", "value": 100 },
+        { "question": "This inventor developed the practical incandescent light bulb and held over 1,000 patents", "answer": "Thomas Edison", "value": 200 },
+        { "question": "These brothers achieved the first powered airplane flight in 1903", "answer": "The Wright Brothers", "value": 300 },
+        { "question": "This German inventor is credited with creating the movable-type printing press in the 15th century", "answer": "Johannes Gutenberg", "value": 400 },
+        { "question": "This Scottish inventor's steam engine improvements helped power the Industrial Revolution", "answer": "James Watt", "value": 500 },
+        { "question": "This inventor developed the World Wide Web in 1989 while working at CERN", "answer": "Tim Berners-Lee", "value": 600 },
+        { "question": "This inventor patented the first practical safety elevator brake, enabling the construction of tall buildings", "answer": "Elisha Otis", "value": 700 },
+        { "question": "This Serbian-American inventor pioneered alternating current electrical systems", "answer": "Nikola Tesla", "value": 800 }
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "questions": [
+        { "question": "This binary digit, either 0 or 1, is the basic unit of information in computing", "answer": "A bit", "value": 100 },
+        { "question": "This company was founded by Bill Gates and Paul Allen in 1975", "answer": "Microsoft", "value": 200 },
+        { "question": "This programming language, created by Guido van Rossum, is known for its readable syntax", "answer": "Python", "value": 300 },
+        { "question": "This British mathematician is considered a father of theoretical computer science and broke the Enigma code", "answer": "Alan Turing", "value": 400 },
+        { "question": "This term describes the global network of interconnected computers that share the World Wide Web protocol", "answer": "The Internet", "value": 500 },
+        { "question": "This English mathematician, working with Charles Babbage, is often called the first computer programmer", "answer": "Ada Lovelace", "value": 600 },
+        { "question": "This term describes software that mimics human cognitive functions like learning and problem-solving", "answer": "Artificial Intelligence", "value": 700 },
+        { "question": "This programming language, developed by Dennis Ritchie at Bell Labs, greatly influenced later languages like C++ and Java", "answer": "C", "value": 800 }
+      ]
+    },
+    {
+      "name": "Medicine",
+      "questions": [
+        { "question": "This scientist developed the first successful polio vaccine", "answer": "Jonas Salk", "value": 100 },
+        { "question": "This British physician discovered that cowpox exposure could prevent smallpox, pioneering vaccination", "answer": "Edward Jenner", "value": 200 },
+        { "question": "This Scottish scientist discovered penicillin in 1928", "answer": "Alexander Fleming", "value": 300 },
+        { "question": "This French scientist developed the process of pasteurization and pioneered germ theory", "answer": "Louis Pasteur", "value": 400 },
+        { "question": "This medical imaging technology uses magnetic fields and radio waves to produce detailed images of organs", "answer": "MRI", "value": 500 },
+        { "question": "This Austrian physician founded psychoanalysis, focusing on the unconscious mind", "answer": "Sigmund Freud", "value": 600 },
+        { "question": "This German physicist discovered X-rays in 1895, earning the first Nobel Prize in Physics", "answer": "Wilhelm Rontgen", "value": 700 },
+        { "question": "This English nurse, a pioneer of modern nursing, is known for her work during the Crimean War", "answer": "Florence Nightingale", "value": 800 }
+      ]
+    },
+    {
+      "name": "Space Exploration",
+      "questions": [
+        { "question": "This was the first man-made object to orbit the Earth, launched by the Soviet Union in 1957", "answer": "Sputnik", "value": 100 },
+        { "question": "This astronaut was the first human to walk on the Moon, in 1969", "answer": "Neil Armstrong", "value": 200 },
+        { "question": "This NASA mission program landed the first humans on the Moon", "answer": "Apollo", "value": 300 },
+        { "question": "This Soviet cosmonaut was the first human in space, in 1961", "answer": "Yuri Gagarin", "value": 400 },
+        { "question": "This reusable NASA spacecraft program operated from 1981 to 2011", "answer": "The Space Shuttle", "value": 500 },
+        { "question": "This orbiting research laboratory has been continuously staffed by rotating international crews since 2000", "answer": "The International Space Station", "value": 600 },
+        { "question": "This NASA rover has been exploring Mars's Gale Crater since 2012, searching for signs of past habitability", "answer": "Curiosity", "value": 700 },
+        { "question": "This privately founded company, led by Elon Musk, developed the reusable Falcon 9 rocket", "answer": "SpaceX", "value": 800 }
+      ]
+    }
+  ]
+}

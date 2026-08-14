@@ -1,0 +1,109 @@
+{
+  "difficulty": 3,
+  "categories": [
+    {
+      "name": "Best Picture Winners",
+      "questions": [
+        { "question": "This 1997 James Cameron film about a doomed ocean liner won 11 Oscars including Best Picture", "answer": "Titanic", "value": 100 },
+        { "question": "This 1994 film starring Tom Hanks follows a man with a low IQ who witnesses and influences historic events", "answer": "Forrest Gump", "value": 200 },
+        { "question": "This 2019 South Korean film about class inequality was the first non-English-language film to win Best Picture", "answer": "Parasite", "value": 300 },
+        { "question": "This 1972 Francis Ford Coppola film follows the Corleone crime family", "answer": "The Godfather", "value": 400 },
+        { "question": "This 1993 Steven Spielberg film depicts a businessman who saved over a thousand Jewish refugees during the Holocaust", "answer": "Schindler's List", "value": 500 },
+        { "question": "This 1959 epic starring Charlton Heston as a Jewish prince features a famous chariot race", "answer": "Ben-Hur", "value": 600 },
+        { "question": "This 2016 musical starring Emma Stone and Ryan Gosling was mistakenly announced as Best Picture before the error was corrected", "answer": "La La Land", "value": 700 },
+        { "question": "This 1991 film was the first horror film to win Best Picture, starring Anthony Hopkins as Hannibal Lecter", "answer": "The Silence of the Lambs", "value": 800 }
+      ]
+    },
+    {
+      "name": "Sci-Fi Films",
+      "questions": [
+        { "question": "This 1977 George Lucas film introduced Luke Skywalker and the Force", "answer": "Star Wars", "value": 100 },
+        { "question": "This 1982 Steven Spielberg film follows a boy who befriends a stranded alien", "answer": "E.T. the Extra-Terrestrial", "value": 200 },
+        { "question": "This 1999 film asks whether reality is a simulated construct, starring Keanu Reeves", "answer": "The Matrix", "value": 300 },
+        { "question": "This 1968 Stanley Kubrick film features the AI antagonist HAL 9000", "answer": "2001: A Space Odyssey", "value": 400 },
+        { "question": "This 1982 Ridley Scott film, based on a Philip K. Dick novel, follows a \"blade runner\" hunting replicants", "answer": "Blade Runner", "value": 500 },
+        { "question": "This 1985 film sends Marty McFly back in time in a modified DeLorean", "answer": "Back to the Future", "value": 600 },
+        { "question": "This 2014 Christopher Nolan film involves astronauts traveling through a wormhole to save humanity", "answer": "Interstellar", "value": 700 },
+        { "question": "This 1979 Ridley Scott film's tagline was \"In space, no one can hear you scream\"", "answer": "Alien", "value": 800 }
+      ]
+    },
+    {
+      "name": "Sitcoms",
+      "questions": [
+        { "question": "This NBC sitcom, set in a coffee shop called Central Perk, followed six friends in New York City", "answer": "Friends", "value": 100 },
+        { "question": "This mockumentary-style sitcom is set at the fictional Dunder Mifflin Paper Company", "answer": "The Office", "value": 200 },
+        { "question": "This sitcom, set in a Boston bar \"where everybody knows your name,\" ran from 1982 to 1993", "answer": "Cheers", "value": 300 },
+        { "question": "This sitcom about \"nothing\" was co-created by and starred a comedian of the same name", "answer": "Seinfeld", "value": 400 },
+        { "question": "This sitcom follows the eccentric physicist Sheldon Cooper and his friends and neighbor Penny", "answer": "The Big Bang Theory", "value": 500 },
+        { "question": "This animated sitcom follows the yellow-skinned Simpson family in Springfield", "answer": "The Simpsons", "value": 600 },
+        { "question": "This sitcom follows the Bluth family, a wealthy but dysfunctional Orange County clan", "answer": "Arrested Development", "value": 700 },
+        { "question": "This 1970s sitcom starred Carroll O'Connor as the bigoted but beloved Archie Bunker", "answer": "All in the Family", "value": 800 }
+      ]
+    },
+    {
+      "name": "Animated Films",
+      "questions": [
+        { "question": "This 1994 Disney film follows a lion cub named Simba who must reclaim his throne", "answer": "The Lion King", "value": 100 },
+        { "question": "This 1995 Pixar film was the first feature-length movie made entirely with computer animation", "answer": "Toy Story", "value": 200 },
+        { "question": "This 2013 Disney film features sisters Elsa and Anna and the song \"Let It Go\"", "answer": "Frozen", "value": 300 },
+        { "question": "This 2009 Pixar film follows an elderly widower who ties balloons to his house to fly to South America", "answer": "Up", "value": 400 },
+        { "question": "This 1940 Disney film is a compilation of animated segments set to classical music, including \"The Sorcerer's Apprentice\"", "answer": "Fantasia", "value": 500 },
+        { "question": "This 2001 DreamWorks film follows a grumpy green ogre and his talking donkey sidekick", "answer": "Shrek", "value": 600 },
+        { "question": "This 1988 Studio Ghibli film follows sisters who befriend a friendly forest spirit", "answer": "My Neighbor Totoro", "value": 700 },
+        { "question": "This 2018 Sony Pictures film introduced Miles Morales as an animated Spider-Man across the multiverse", "answer": "Spider-Man: Into the Spider-Verse", "value": 800 }
+      ]
+    },
+    {
+      "name": "Directors",
+      "questions": [
+        { "question": "This director is known for Jaws, E.T., and Schindler's List", "answer": "Steven Spielberg", "value": 100 },
+        { "question": "This director is known for Pulp Fiction and Kill Bill", "answer": "Quentin Tarantino", "value": 200 },
+        { "question": "This British director created the Inception and The Dark Knight trilogy", "answer": "Christopher Nolan", "value": 300 },
+        { "question": "This director, known for suspense, directed Psycho and Vertigo", "answer": "Alfred Hitchcock", "value": 400 },
+        { "question": "This director is known for The Godfather trilogy and Apocalypse Now", "answer": "Francis Ford Coppola", "value": 500 },
+        { "question": "This Japanese director is known for Seven Samurai and Rashomon", "answer": "Akira Kurosawa", "value": 600 },
+        { "question": "This director, known for surreal visuals, directed Pan's Labyrinth and The Shape of Water", "answer": "Guillermo del Toro", "value": 700 },
+        { "question": "This director, known for meticulous symmetry, directed The Grand Budapest Hotel and Moonrise Kingdom", "answer": "Wes Anderson", "value": 800 }
+      ]
+    },
+    {
+      "name": "Actors",
+      "questions": [
+        { "question": "This actor played Iron Man / Tony Stark in the Marvel Cinematic Universe", "answer": "Robert Downey Jr.", "value": 100 },
+        { "question": "This actress won an Academy Award for playing Margaret Thatcher in \"The Iron Lady\"", "answer": "Meryl Streep", "value": 200 },
+        { "question": "This actor is known for playing Jack Sparrow in the Pirates of the Caribbean franchise", "answer": "Johnny Depp", "value": 300 },
+        { "question": "This actor won an Oscar for his role as a fur trapper seeking revenge in \"The Revenant\"", "answer": "Leonardo DiCaprio", "value": 400 },
+        { "question": "This actress starred as Hermione Granger in the Harry Potter film series", "answer": "Emma Watson", "value": 500 },
+        { "question": "This actor is known for roles in Forrest Gump, Cast Away, and Saving Private Ryan", "answer": "Tom Hanks", "value": 600 },
+        { "question": "This actor played the Joker in 2019's \"Joker,\" winning an Academy Award for the role", "answer": "Joaquin Phoenix", "value": 700 },
+        { "question": "This actress won consecutive Oscars for \"Klute\" and later starred in \"Coming Home\" and \"On Golden Pond\"", "answer": "Jane Fonda", "value": 800 }
+      ]
+    },
+    {
+      "name": "TV Dramas",
+      "questions": [
+        { "question": "This crime drama follows Walter White, a chemistry teacher turned methamphetamine manufacturer", "answer": "Breaking Bad", "value": 100 },
+        { "question": "This HBO fantasy series, based on George R.R. Martin's novels, follows noble families fighting for the Iron Throne", "answer": "Game of Thrones", "value": 200 },
+        { "question": "This medical drama, set at Seattle Grace Hospital, has run since 2005", "answer": "Grey's Anatomy", "value": 300 },
+        { "question": "This HBO series follows New Jersey mob boss Tony Soprano", "answer": "The Sopranos", "value": 400 },
+        { "question": "This crime drama, set in Baltimore, examines the drug trade and city institutions", "answer": "The Wire", "value": 500 },
+        { "question": "This period drama follows the aristocratic Crawley family and their servants in early 20th-century England", "answer": "Downton Abbey", "value": 600 },
+        { "question": "This legal drama followed idealistic young lawyers navigating cases and ethics in Chicago", "answer": "The Good Wife", "value": 700 },
+        { "question": "This dystopian drama, based on Margaret Atwood's novel, follows Offred in the totalitarian Republic of Gilead", "answer": "The Handmaid's Tale", "value": 800 }
+      ]
+    },
+    {
+      "name": "Movie Quotes",
+      "questions": [
+        { "question": "\"May the Force be with you\" is a famous line from this film franchise", "answer": "Star Wars", "value": 100 },
+        { "question": "\"I'll be back\" is a catchphrase from this 1984 sci-fi film starring Arnold Schwarzenegger", "answer": "The Terminator", "value": 200 },
+        { "question": "\"Here's looking at you, kid\" is a famous line from this 1942 romantic drama", "answer": "Casablanca", "value": 300 },
+        { "question": "\"You can't handle the truth!\" is shouted in this 1992 courtroom drama starring Jack Nicholson", "answer": "A Few Good Men", "value": 400 },
+        { "question": "\"I'm gonna make him an offer he can't refuse\" is a line from this 1972 crime film", "answer": "The Godfather", "value": 500 },
+        { "question": "\"Why so serious?\" is a chilling line delivered by the Joker in this 2008 film", "answer": "The Dark Knight", "value": 600 },
+        { "question": "\"There's no place like home\" is spoken by Dorothy in this 1939 musical fantasy film", "answer": "The Wizard of Oz", "value": 700 },
+        { "question": "\"You're gonna need a bigger boat\" is an improvised line from this 1975 thriller", "answer": "Jaws", "value": 800 }
+      ]
+    }
+  ]
+}

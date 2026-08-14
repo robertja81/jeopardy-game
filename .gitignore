@@ -1,0 +1,5 @@
+build/
+build-vs/
+build-release/
+installer/Output/
+dist/

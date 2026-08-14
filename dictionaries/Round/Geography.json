@@ -1,0 +1,109 @@
+{
+  "difficulty": 5,
+  "categories": [
+    {
+      "name": "World Capitals",
+      "questions": [
+        { "question": "This city is the capital of France", "answer": "Paris", "value": 100 },
+        { "question": "This city is the capital of Japan", "answer": "Tokyo", "value": 200 },
+        { "question": "This city, not Sydney, is the capital of Australia", "answer": "Canberra", "value": 300 },
+        { "question": "This city is the capital of Canada", "answer": "Ottawa", "value": 400 },
+        { "question": "This city is the capital of Egypt", "answer": "Cairo", "value": 500 },
+        { "question": "This city, not Rio de Janeiro, is the capital of Brazil", "answer": "Brasilia", "value": 600 },
+        { "question": "This city is the capital of South Korea", "answer": "Seoul", "value": 700 },
+        { "question": "This city, at over 11,000 feet elevation, is the highest administrative capital city in the world, located in Bolivia", "answer": "La Paz", "value": 800 }
+      ]
+    },
+    {
+      "name": "Rivers & Lakes",
+      "questions": [
+        { "question": "This is the longest river in the world, flowing through northeastern Africa", "answer": "The Nile", "value": 100 },
+        { "question": "This South American river carries more water than any other river in the world", "answer": "The Amazon", "value": 200 },
+        { "question": "This river flows through Paris, France", "answer": "The Seine", "value": 300 },
+        { "question": "This is the largest lake in the world by surface area, bordering Russia and several Central Asian nations", "answer": "The Caspian Sea", "value": 400 },
+        { "question": "This African river gives its name to a famous set of falls on the Zambia-Zimbabwe border", "answer": "The Zambezi", "value": 500 },
+        { "question": "This is the deepest lake in the world, located in Siberia, Russia", "answer": "Lake Baikal", "value": 600 },
+        { "question": "This river forms part of the U.S.-Canadian border and feeds a famous set of falls", "answer": "The Niagara River", "value": 700 },
+        { "question": "This river, the second longest in the world, flows through China", "answer": "The Yangtze", "value": 800 }
+      ]
+    },
+    {
+      "name": "Mountains",
+      "questions": [
+        { "question": "This is the tallest mountain in the world, located in the Himalayas", "answer": "Mount Everest", "value": 100 },
+        { "question": "This is the tallest mountain in Africa, located in Tanzania", "answer": "Mount Kilimanjaro", "value": 200 },
+        { "question": "This mountain range separates Europe from Asia, running through Russia", "answer": "The Ural Mountains", "value": 300 },
+        { "question": "This is the tallest mountain in North America, located in Alaska", "answer": "Denali", "value": 400 },
+        { "question": "This South American mountain range is the world's longest continental mountain range", "answer": "The Andes", "value": 500 },
+        { "question": "This dormant volcano in Japan is the country's tallest peak and a cultural icon", "answer": "Mount Fuji", "value": 600 },
+        { "question": "This mountain range stretches across parts of France, Switzerland, Italy, and Austria", "answer": "The Alps", "value": 700 },
+        { "question": "This is the tallest mountain in Antarctica", "answer": "Vinson Massif", "value": 800 }
+      ]
+    },
+    {
+      "name": "Countries",
+      "questions": [
+        { "question": "This is the largest country in the world by land area", "answer": "Russia", "value": 100 },
+        { "question": "This African nation is the most populous country on the continent", "answer": "Nigeria", "value": 200 },
+        { "question": "This is the smallest country in the world, an independent city-state within Rome", "answer": "Vatican City", "value": 300 },
+        { "question": "This South Asian country has the second-largest population in the world", "answer": "India", "value": 400 },
+        { "question": "This transcontinental country straddles the Bosphorus Strait, with land in both Europe and Asia", "answer": "Turkey", "value": 500 },
+        { "question": "This is the only African country that borders both the Atlantic and Indian Oceans", "answer": "South Africa", "value": 600 },
+        { "question": "This landlocked European country is home to the Matterhorn and is famous for neutrality and banking", "answer": "Switzerland", "value": 700 },
+        { "question": "This is the only country that fully occupies an entire continent", "answer": "Australia", "value": 800 }
+      ]
+    },
+    {
+      "name": "Islands",
+      "questions": [
+        { "question": "This is the largest island in the world, not counting continent-sized Australia", "answer": "Greenland", "value": 100 },
+        { "question": "This Indonesian island is one of the most populous islands in the world and home to Jakarta", "answer": "Java", "value": 200 },
+        { "question": "This island nation lies off the northwestern coast of continental Europe and includes England, Scotland, and Wales", "answer": "Great Britain", "value": 300 },
+        { "question": "This Mediterranean island nation lies just south of Sicily", "answer": "Malta", "value": 400 },
+        { "question": "This Caribbean island is divided between Haiti and the Dominican Republic", "answer": "Hispaniola", "value": 500 },
+        { "question": "This Pacific U.S. state is made up entirely of islands", "answer": "Hawaii", "value": 600 },
+        { "question": "This island nation off the southeast coast of Africa is known for unique wildlife like lemurs", "answer": "Madagascar", "value": 700 },
+        { "question": "This Southeast Asian island, divided among Indonesia, Malaysia, and Brunei, is the third-largest island in the world", "answer": "Borneo", "value": 800 }
+      ]
+    },
+    {
+      "name": "U.S. States",
+      "questions": [
+        { "question": "This is the largest U.S. state by land area", "answer": "Alaska", "value": 100 },
+        { "question": "This is the most populous U.S. state", "answer": "California", "value": 200 },
+        { "question": "This state is known as the \"Sunshine State\" and is home to Walt Disney World", "answer": "Florida", "value": 300 },
+        { "question": "This state's largest city, Chicago, sits on the shore of Lake Michigan", "answer": "Illinois", "value": 400 },
+        { "question": "This state was the first to ratify the U.S. Constitution", "answer": "Delaware", "value": 500 },
+        { "question": "This state is the only one to border just one other U.S. state", "answer": "Maine", "value": 600 },
+        { "question": "This state, admitted in 1959, is the only one made up entirely of islands in the Pacific", "answer": "Hawaii", "value": 700 },
+        { "question": "This is the only U.S. state whose name starts with two vowels", "answer": "Iowa", "value": 800 }
+      ]
+    },
+    {
+      "name": "Deserts",
+      "questions": [
+        { "question": "This is the largest hot desert in the world, spanning much of North Africa", "answer": "The Sahara", "value": 100 },
+        { "question": "This Asian desert, spanning China and Mongolia, is known for its extreme temperature swings", "answer": "The Gobi Desert", "value": 200 },
+        { "question": "This desert covers much of the southwestern U.S. and northern Mexico, named for a region in Mexico", "answer": "The Sonoran Desert", "value": 300 },
+        { "question": "This Chilean desert is considered the driest non-polar desert on Earth", "answer": "The Atacama Desert", "value": 400 },
+        { "question": "This vast, arid interior region of Australia is often called by this nickname", "answer": "The Outback", "value": 500 },
+        { "question": "This desert in southern Africa gives its name to a country that includes it", "answer": "The Namib Desert", "value": 600 },
+        { "question": "This is the largest desert in the world when polar deserts are included", "answer": "The Antarctic Desert", "value": 700 },
+        { "question": "This Middle Eastern desert, covering much of the Arabian Peninsula's interior, is called the \"Empty Quarter\"", "answer": "The Rub' al Khali", "value": 800 }
+      ]
+    },
+    {
+      "name": "Oceans & Seas",
+      "questions": [
+        { "question": "This is the largest and deepest ocean on Earth", "answer": "The Pacific Ocean", "value": 100 },
+        { "question": "This ocean lies between the Americas and Europe and Africa", "answer": "The Atlantic Ocean", "value": 200 },
+        { "question": "This sea, bordered by Israel and Jordan, is so salty that swimmers float easily", "answer": "The Dead Sea", "value": 300 },
+        { "question": "This is the smallest and shallowest of the world's five oceans, located near the North Pole", "answer": "The Arctic Ocean", "value": 400 },
+        { "question": "This sea separates Europe, Asia, and Africa, home to many ancient civilizations", "answer": "The Mediterranean Sea", "value": 500 },
+        { "question": "This ocean, officially recognized in 2000, surrounds Antarctica", "answer": "The Southern Ocean", "value": 600 },
+        { "question": "This sea, technically part of the Atlantic, is known for its calm waters and floating sargassum seaweed", "answer": "The Sargasso Sea", "value": 700 },
+        { "question": "This large ocean lies between Africa, Asia, and Australia", "answer": "The Indian Ocean", "value": 800 }
+      ]
+    }
+  ]
+}

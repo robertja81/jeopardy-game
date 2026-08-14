@@ -1,0 +1,109 @@
+{
+  "difficulty": 5,
+  "categories": [
+    {
+      "name": "Ancient Civilizations",
+      "questions": [
+        { "question": "This civilization built the pyramids at Giza", "answer": "Ancient Egypt", "value": 100 },
+        { "question": "This ancient Mesopotamian region is often called the birthplace of writing", "answer": "Sumer", "value": 200 },
+        { "question": "This ancient Greek city-state was known for its military discipline and warrior culture", "answer": "Sparta", "value": 300 },
+        { "question": "This South American civilization built Machu Picchu", "answer": "The Inca", "value": 400 },
+        { "question": "This Egyptian city was home to an ancient wonder, a great lighthouse, in its harbor", "answer": "Alexandria", "value": 500 },
+        { "question": "This Mesoamerican civilization used an advanced calendar system and built step pyramids at Chichen Itza", "answer": "The Maya", "value": 600 },
+        { "question": "This ancient civilization's cuneiform writing was pressed into clay tablets", "answer": "Sumerians", "value": 700 },
+        { "question": "This Bronze Age civilization's major cities included Mohenjo-daro and Harappa", "answer": "Indus Valley Civilization", "value": 800 }
+      ]
+    },
+    {
+      "name": "Wars & Battles",
+      "questions": [
+        { "question": "This war was fought between the Union and Confederacy from 1861 to 1865", "answer": "The American Civil War", "value": 100 },
+        { "question": "This 1944 invasion of Normandy by Allied forces is also known as D-Day", "answer": "Operation Overlord", "value": 200 },
+        { "question": "This ancient battle saw 300 Spartans hold off a massive Persian army at a narrow pass", "answer": "The Battle of Thermopylae", "value": 300 },
+        { "question": "This war, fought from 1914 to 1918, was originally called \"The Great War\"", "answer": "World War I", "value": 400 },
+        { "question": "This 1815 battle marked Napoleon's final defeat", "answer": "The Battle of Waterloo", "value": 500 },
+        { "question": "This decade-long war ended with the fall of Saigon in 1975", "answer": "The Vietnam War", "value": 600 },
+        { "question": "This 1836 battle in Texas saw defenders including Davy Crockett fall to Mexican forces", "answer": "The Battle of the Alamo", "value": 700 },
+        { "question": "This 1066 battle saw William the Conqueror defeat King Harold II of England", "answer": "The Battle of Hastings", "value": 800 }
+      ]
+    },
+    {
+      "name": "Revolutions",
+      "questions": [
+        { "question": "This 1776 event saw thirteen American colonies declare independence from Britain", "answer": "The American Revolution", "value": 100 },
+        { "question": "This 1789 uprising led to the fall of the French monarchy and the rise of the Republic", "answer": "The French Revolution", "value": 200 },
+        { "question": "This 1917 revolution overthrew the Russian Tsar and eventually brought the Bolsheviks to power", "answer": "The Russian Revolution", "value": 300 },
+        { "question": "This late-18th-century uprising in a French Caribbean colony led to the first successful slave-led independence movement", "answer": "The Haitian Revolution", "value": 400 },
+        { "question": "This 1949 revolution led by Mao Zedong established the People's Republic of China", "answer": "The Chinese Communist Revolution", "value": 500 },
+        { "question": "This 18th-century economic and technological shift transformed manufacturing, beginning in Britain", "answer": "The Industrial Revolution", "value": 600 },
+        { "question": "This 1959 revolution led by Fidel Castro overthrew the Batista government", "answer": "The Cuban Revolution", "value": 700 },
+        { "question": "This 1989 series of peaceful uprisings saw Communist governments fall across Eastern Europe", "answer": "The Revolutions of 1989", "value": 800 }
+      ]
+    },
+    {
+      "name": "Empires",
+      "questions": [
+        { "question": "This empire, centered on Rome, once controlled most of Europe, North Africa, and the Middle East", "answer": "The Roman Empire", "value": 100 },
+        { "question": "This empire, ruled by sultans from Constantinople after 1453, lasted until 1922", "answer": "The Ottoman Empire", "value": 200 },
+        { "question": "This empire, founded by Genghis Khan, became the largest contiguous land empire in history", "answer": "The Mongol Empire", "value": 300 },
+        { "question": "This empire, at its height in the early 20th century, was said to be one \"on which the sun never set\"", "answer": "The British Empire", "value": 400 },
+        { "question": "This ancient Persian empire, founded by Cyrus the Great, once stretched from Egypt to India", "answer": "The Achaemenid Empire", "value": 500 },
+        { "question": "This Mesoamerican empire, centered at Tenochtitlan, was conquered by Hernan Cortes", "answer": "The Aztec Empire", "value": 600 },
+        { "question": "This empire, ruled from Vienna, united much of Central Europe until its collapse after World War I", "answer": "The Austro-Hungarian Empire", "value": 700 },
+        { "question": "This West African empire, ruled by Mansa Musa, was renowned for its wealth in gold", "answer": "The Mali Empire", "value": 800 }
+      ]
+    },
+    {
+      "name": "Explorers",
+      "questions": [
+        { "question": "This Italian explorer's 1492 voyage, sponsored by Spain, reached the Americas", "answer": "Christopher Columbus", "value": 100 },
+        { "question": "This Portuguese explorer led the first expedition to circumnavigate the globe, though he died before completing it", "answer": "Ferdinand Magellan", "value": 200 },
+        { "question": "This English explorer and privateer was the first to circumnavigate the globe and survive the voyage", "answer": "Francis Drake", "value": 300 },
+        { "question": "This Venetian explorer traveled the Silk Road to China and wrote of his journeys in \"The Travels\"", "answer": "Marco Polo", "value": 400 },
+        { "question": "This Norwegian explorer was the first person to reach the South Pole, in 1911", "answer": "Roald Amundsen", "value": 500 },
+        { "question": "This American duo led an expedition across the newly acquired Louisiana Territory in 1804", "answer": "Lewis and Clark", "value": 600 },
+        { "question": "This Portuguese explorer was the first European to sail around the Cape of Good Hope to India", "answer": "Vasco da Gama", "value": 700 },
+        { "question": "This English explorer charted the coasts of New Zealand and eastern Australia in the 18th century", "answer": "James Cook", "value": 800 }
+      ]
+    },
+    {
+      "name": "The Cold War",
+      "questions": [
+        { "question": "This U.S.-Soviet ideological standoff lasted from roughly 1947 to 1991", "answer": "The Cold War", "value": 100 },
+        { "question": "This wall, built in 1961, divided East and West Berlin until 1989", "answer": "The Berlin Wall", "value": 200 },
+        { "question": "This 1962 standoff over Soviet nuclear weapons in a Caribbean nation nearly triggered nuclear war", "answer": "The Cuban Missile Crisis", "value": 300 },
+        { "question": "This U.S. senator led a campaign of anti-Communist accusations in the early 1950s", "answer": "Joseph McCarthy", "value": 400 },
+        { "question": "This 1947 U.S. policy pledged support to countries resisting Communist expansion", "answer": "The Truman Doctrine", "value": 500 },
+        { "question": "This Soviet leader introduced the reform policies of glasnost and perestroika in the 1980s", "answer": "Mikhail Gorbachev", "value": 600 },
+        { "question": "This 1950-1953 conflict pitted North Korea, backed by China and the USSR, against South Korea, backed by the UN", "answer": "The Korean War", "value": 700 },
+        { "question": "This event, on November 9, 1989, symbolized the beginning of the end of the Cold War in Europe", "answer": "The Fall of the Berlin Wall", "value": 800 }
+      ]
+    },
+    {
+      "name": "Monarchs & Rulers",
+      "questions": [
+        { "question": "This English queen reigned for 63 years during the 19th century, giving her name to an era", "answer": "Queen Victoria", "value": 100 },
+        { "question": "This French king, known as the \"Sun King,\" built the Palace of Versailles", "answer": "Louis XIV", "value": 200 },
+        { "question": "This Egyptian pharaoh's intact tomb was discovered by Howard Carter in 1922", "answer": "Tutankhamun", "value": 300 },
+        { "question": "This English king had six wives and broke from the Catholic Church to found the Church of England", "answer": "Henry VIII", "value": 400 },
+        { "question": "This Russian empress, originally a German princess, ruled as \"the Great\" in the 18th century", "answer": "Catherine the Great", "value": 500 },
+        { "question": "This Mongol ruler founded the largest contiguous empire in history in the 13th century", "answer": "Genghis Khan", "value": 600 },
+        { "question": "This French military leader crowned himself Emperor in 1804", "answer": "Napoleon Bonaparte", "value": 700 },
+        { "question": "This Macedonian king conquered an empire stretching from Greece to India by age 30", "answer": "Alexander the Great", "value": 800 }
+      ]
+    },
+    {
+      "name": "Historical Documents",
+      "questions": [
+        { "question": "This 1776 document declared the American colonies' independence from Britain", "answer": "The Declaration of Independence", "value": 100 },
+        { "question": "This 1215 English charter limited the power of the king and established certain legal rights", "answer": "The Magna Carta", "value": 200 },
+        { "question": "This document, ratified in 1788, established the framework of the U.S. federal government", "answer": "The U.S. Constitution", "value": 300 },
+        { "question": "This 1948 United Nations document outlines fundamental rights entitled to all people", "answer": "The Universal Declaration of Human Rights", "value": 400 },
+        { "question": "This 1789 French document proclaimed liberty, equality, and fraternity as core national values", "answer": "The Declaration of the Rights of Man", "value": 500 },
+        { "question": "This 1863 U.S. executive order declared enslaved people in Confederate states to be free", "answer": "The Emancipation Proclamation", "value": 600 },
+        { "question": "This treaty, signed in 1919, officially ended World War I and imposed harsh terms on Germany", "answer": "The Treaty of Versailles", "value": 700 },
+        { "question": "This 1941 joint declaration by Churchill and Roosevelt outlined Allied goals for the postwar world", "answer": "The Atlantic Charter", "value": 800 }
+      ]
+    }
+  ]
+}

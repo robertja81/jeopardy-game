@@ -1,0 +1,109 @@
+{
+  "difficulty": 4,
+  "categories": [
+    {
+      "name": "The Olympics",
+      "questions": [
+        { "question": "This ancient Greek site gives its name to the modern Olympic Games and hosted the ancient competitions", "answer": "Olympia", "value": 100 },
+        { "question": "This country hosted the first modern Olympic Games in 1896", "answer": "Greece", "value": 200 },
+        { "question": "This American swimmer has won more Olympic medals than any other athlete, with 28 total", "answer": "Michael Phelps", "value": 300 },
+        { "question": "This Jamaican sprinter won gold in the 100m at three consecutive Olympics", "answer": "Usain Bolt", "value": 400 },
+        { "question": "This American gymnast has won the most Olympic and World medals of any gymnast in history", "answer": "Simone Biles", "value": 500 },
+        { "question": "This Olympic event, held every four years alongside the Summer Games, features skiing, skating, and other snow and ice sports", "answer": "The Winter Olympics", "value": 600 },
+        { "question": "This symbol of the Olympic Games consists of five interlocking rings representing the inhabited continents", "answer": "The Olympic Rings", "value": 700 },
+        { "question": "This African American track and field athlete won four gold medals at the 1936 Berlin Olympics, defying Nazi propaganda", "answer": "Jesse Owens", "value": 800 }
+      ]
+    },
+    {
+      "name": "NFL Football",
+      "questions": [
+        { "question": "This annual championship game of the NFL is played in early February", "answer": "The Super Bowl", "value": 100 },
+        { "question": "This position is responsible for throwing passes and directing the offense", "answer": "Quarterback", "value": 200 },
+        { "question": "This New England Patriots quarterback won seven Super Bowl championships across his career", "answer": "Tom Brady", "value": 300 },
+        { "question": "This scoring play, worth six points, occurs when a team crosses the opponent's goal line with the ball", "answer": "A touchdown", "value": 400 },
+        { "question": "This trophy, awarded to the Super Bowl champion, is named for a legendary Green Bay Packers coach", "answer": "The Vince Lombardi Trophy", "value": 500 },
+        { "question": "This Chicago Bears running back set the NFL career rushing record before Emmitt Smith surpassed it", "answer": "Walter Payton", "value": 600 },
+        { "question": "This San Francisco 49ers quarterback led the team to four Super Bowl titles in the 1980s", "answer": "Joe Montana", "value": 700 },
+        { "question": "This defensive scoring play occurs when a player tackles an opposing ball carrier in their own end zone", "answer": "A safety", "value": 800 }
+      ]
+    },
+    {
+      "name": "NBA Basketball",
+      "questions": [
+        { "question": "This basketball legend won six NBA championships with the Chicago Bulls", "answer": "Michael Jordan", "value": 100 },
+        { "question": "This trophy is awarded annually to the NBA's championship-winning team", "answer": "The Larry O'Brien Trophy", "value": 200 },
+        { "question": "This Los Angeles Lakers guard-forward, who died in a 2020 helicopter crash, won five NBA titles", "answer": "Kobe Bryant", "value": 300 },
+        { "question": "This statistic describes a player reaching double digits in three of five key categories in a single game", "answer": "A triple-double", "value": 400 },
+        { "question": "This center, who played for the Warriors and 76ers among other teams, once scored 100 points in a single game", "answer": "Wilt Chamberlain", "value": 500 },
+        { "question": "This Milwaukee Bucks and later Lakers center held the record for most career points in NBA history for decades", "answer": "Kareem Abdul-Jabbar", "value": 600 },
+        { "question": "This Golden State Warriors guard is widely regarded as the greatest three-point shooter in NBA history", "answer": "Stephen Curry", "value": 700 },
+        { "question": "This Boston Celtics center won a record 11 NBA championships during his career", "answer": "Bill Russell", "value": 800 }
+      ]
+    },
+    {
+      "name": "MLB Baseball",
+      "questions": [
+        { "question": "This annual championship series of Major League Baseball is played each October", "answer": "The World Series", "value": 100 },
+        { "question": "This New York Yankees outfielder set the single-season home run record of 60 in 1927", "answer": "Babe Ruth", "value": 200 },
+        { "question": "This defensive player, positioned behind home plate, catches pitches not hit by the batter", "answer": "Catcher", "value": 300 },
+        { "question": "This term describes a pitcher retiring every batter he faces without allowing any to reach base", "answer": "A perfect game", "value": 400 },
+        { "question": "This New York Yankees first baseman's consecutive-games-played streak was long a record before Cal Ripken Jr. broke it", "answer": "Lou Gehrig", "value": 500 },
+        { "question": "This New York Giants outfielder is famous for \"The Catch\" in the 1954 World Series", "answer": "Willie Mays", "value": 600 },
+        { "question": "This Los Angeles Dodgers two-way star, a pitcher and outfielder from Japan, won multiple MVP awards in the 2020s", "answer": "Shohei Ohtani", "value": 700 },
+        { "question": "This Brooklyn Dodgers player broke Major League Baseball's color barrier in 1947", "answer": "Jackie Robinson", "value": 800 }
+      ]
+    },
+    {
+      "name": "World Soccer",
+      "questions": [
+        { "question": "This international soccer tournament, held every four years, is the sport's most prestigious competition", "answer": "The FIFA World Cup", "value": 100 },
+        { "question": "This Argentine player won multiple Ballon d'Or awards and led Argentina to the 2022 World Cup title", "answer": "Lionel Messi", "value": 200 },
+        { "question": "This Portuguese forward is one of the all-time leading goal scorers in international soccer history", "answer": "Cristiano Ronaldo", "value": 300 },
+        { "question": "This Brazilian player, considered one of the greatest ever, won three World Cups and was known simply by one name", "answer": "Pele", "value": 400 },
+        { "question": "This English soccer league is widely regarded as one of the most-watched sports leagues in the world", "answer": "The Premier League", "value": 500 },
+        { "question": "This Spanish club, based in Catalonia, has long been a fierce rival of Real Madrid", "answer": "FC Barcelona", "value": 600 },
+        { "question": "This term describes a player scoring three goals in a single match", "answer": "A hat-trick", "value": 700 },
+        { "question": "This trophy, awarded to the winner of the FIFA World Cup, has been awarded in its current gold design since 1974", "answer": "The FIFA World Cup Trophy", "value": 800 }
+      ]
+    },
+    {
+      "name": "Tennis",
+      "questions": [
+        { "question": "This Grand Slam tournament, played on grass courts in London, is the oldest tennis tournament in the world", "answer": "Wimbledon", "value": 100 },
+        { "question": "This scoring term describes a tie at 40-40 in a game", "answer": "Deuce", "value": 200 },
+        { "question": "This Swiss tennis player won a record 20 Grand Slam singles titles during his illustrious career", "answer": "Roger Federer", "value": 300 },
+        { "question": "These American sisters dominated women's tennis in the late 1990s and 2000s", "answer": "Venus and Serena Williams", "value": 400 },
+        { "question": "This term describes winning all four Grand Slam tournaments in a single calendar year", "answer": "A calendar Grand Slam", "value": 500 },
+        { "question": "This Grand Slam tournament is played on red clay courts in Paris", "answer": "The French Open", "value": 600 },
+        { "question": "This Serbian player has won more Grand Slam men's singles titles than any other player in history", "answer": "Novak Djokovic", "value": 700 },
+        { "question": "This American player won the 1990 U.S. Open at age 19, becoming the youngest men's champion at the time", "answer": "Pete Sampras", "value": 800 }
+      ]
+    },
+    {
+      "name": "Golf",
+      "questions": [
+        { "question": "This annual golf major, held at Augusta National, awards a green jacket to its champion", "answer": "The Masters", "value": 100 },
+        { "question": "This American golfer has won 15 major championships and is considered one of the greatest golfers of all time", "answer": "Tiger Woods", "value": 200 },
+        { "question": "This term describes completing a hole one stroke under par", "answer": "A birdie", "value": 300 },
+        { "question": "This term describes completing a hole two strokes under par", "answer": "An eagle", "value": 400 },
+        { "question": "This golfer, nicknamed \"The Golden Bear,\" won a record 18 major championships", "answer": "Jack Nicklaus", "value": 500 },
+        { "question": "This term describes a score of one stroke over par on a hole", "answer": "A bogey", "value": 600 },
+        { "question": "This golf major, the oldest in the sport, is played on a rotation of links courses in the United Kingdom", "answer": "The Open Championship", "value": 700 },
+        { "question": "This South African golfer, one of the \"Big Three\" golfers of the 1960s, won nine major championships", "answer": "Gary Player", "value": 800 }
+      ]
+    },
+    {
+      "name": "Boxing",
+      "questions": [
+        { "question": "This boxer, born Cassius Clay, was known for the phrase \"float like a butterfly, sting like a bee\"", "answer": "Muhammad Ali", "value": 100 },
+        { "question": "This weight class in boxing is the highest, without an upper weight limit", "answer": "Heavyweight", "value": 200 },
+        { "question": "This boxer defeated Muhammad Ali in the historic 1971 \"Fight of the Century\" at Madison Square Garden", "answer": "Joe Frazier", "value": 300 },
+        { "question": "This American boxer retired with a perfect 49-0 professional record", "answer": "Rocky Marciano", "value": 400 },
+        { "question": "This event, when a boxer fails to rise before a referee's count of ten, ends a match", "answer": "A knockout", "value": 500 },
+        { "question": "This Filipino boxer won world titles in a record eight different weight divisions", "answer": "Manny Pacquiao", "value": 600 },
+        { "question": "This boxer, once the youngest heavyweight champion in history, famously bit Evander Holyfield's ear in a 1997 bout", "answer": "Mike Tyson", "value": 700 },
+        { "question": "This boxer, known as \"Sugar,\" is widely regarded pound-for-pound as one of the greatest boxers ever, with a famous rivalry against Jake LaMotta", "answer": "Sugar Ray Robinson", "value": 800 }
+      ]
+    }
+  ]
+}

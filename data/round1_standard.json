@@ -1,0 +1,109 @@
+{
+  "difficulty": 1,
+  "categories": [
+    {
+      "name": "Science",
+      "questions": [
+        { "question": "The gas humans need to breathe to survive", "answer": "Oxygen", "value": 100 },
+        { "question": "The powerhouse of the cell", "answer": "Mitochondria", "value": 200 },
+        { "question": "The chemical symbol for gold", "answer": "Au", "value": 300 },
+        { "question": "The force that pulls objects toward Earth", "answer": "Gravity", "value": 400 },
+        { "question": "The closest planet to the sun", "answer": "Mercury", "value": 500 },
+        { "question": "The scientist who developed the theory of relativity", "answer": "Einstein", "value": 600 },
+        { "question": "The process by which plants convert sunlight into energy", "answer": "Photosynthesis", "value": 700 },
+        { "question": "The subatomic particle with a negative charge", "answer": "Electron", "value": 800 }
+      ]
+    },
+    {
+      "name": "History",
+      "questions": [
+        { "question": "The first President of the United States", "answer": "Washington", "value": 100 },
+        { "question": "The war fought between the North and South, 1861-1865", "answer": "Civil War", "value": 200 },
+        { "question": "The ancient Egyptian writing system of pictures and symbols", "answer": "Hieroglyphics", "value": 300 },
+        { "question": "The year World War II ended", "answer": "1945", "value": 400 },
+        { "question": "The wall that divided Berlin during the Cold War", "answer": "Berlin Wall", "value": 500 },
+        { "question": "The ship that sank in the North Atlantic in 1912", "answer": "Titanic", "value": 600 },
+        { "question": "The empire ruled by Julius Caesar", "answer": "Roman Empire", "value": 700 },
+        { "question": "The 1215 document that limited the power of English kings", "answer": "Magna Carta", "value": 800 }
+      ]
+    },
+    {
+      "name": "Geography",
+      "questions": [
+        { "question": "The largest continent by area", "answer": "Asia", "value": 100 },
+        { "question": "The longest river in the world", "answer": "Nile", "value": 200 },
+        { "question": "The country shaped like a boot", "answer": "Italy", "value": 300 },
+        { "question": "The capital of France", "answer": "Paris", "value": 400 },
+        { "question": "The largest ocean on Earth", "answer": "Pacific", "value": 500 },
+        { "question": "The smallest country in the world", "answer": "Vatican City", "value": 600 },
+        { "question": "The mountain range that separates Europe and Asia", "answer": "Ural Mountains", "value": 700 },
+        { "question": "The desert that covers most of northern Africa", "answer": "Sahara", "value": 800 }
+      ]
+    },
+    {
+      "name": "Movies",
+      "questions": [
+        { "question": "The 1997 film about a ship that sinks, starring Leonardo DiCaprio", "answer": "Titanic", "value": 100 },
+        { "question": "The wizard school in the Harry Potter series", "answer": "Hogwarts", "value": 200 },
+        { "question": "The director of Jaws and E.T.", "answer": "Spielberg", "value": 300 },
+        { "question": "The green ogre in a DreamWorks animated franchise", "answer": "Shrek", "value": 400 },
+        { "question": "The 1994 film where Tom Hanks runs across America", "answer": "Forrest Gump", "value": 500 },
+        { "question": "The fictional African nation home to Black Panther", "answer": "Wakanda", "value": 600 },
+        { "question": "The film trilogy based on Tolkien's Middle-earth", "answer": "Lord of the Rings", "value": 700 },
+        { "question": "The AI antagonist aboard the ship in 2001: A Space Odyssey", "answer": "HAL", "value": 800 }
+      ]
+    },
+    {
+      "name": "Music",
+      "questions": [
+        { "question": "The number of strings on a standard guitar", "answer": "Six", "value": 100 },
+        { "question": "The deaf composer of the Ninth Symphony", "answer": "Beethoven", "value": 200 },
+        { "question": "The singer known as the King of Rock and Roll", "answer": "Elvis", "value": 300 },
+        { "question": "The British band known as the Fab Four", "answer": "Beatles", "value": 400 },
+        { "question": "The pop star known as the Queen of Pop", "answer": "Madonna", "value": 500 },
+        { "question": "The Italian musical term meaning 'very loud'", "answer": "Fortissimo", "value": 600 },
+        { "question": "The instrument with 88 keys", "answer": "Piano", "value": 700 },
+        { "question": "The Baroque composer of 'The Four Seasons'", "answer": "Vivaldi", "value": 800 }
+      ]
+    },
+    {
+      "name": "Sports",
+      "questions": [
+        { "question": "The number of players on a basketball team on the court at once", "answer": "Five", "value": 100 },
+        { "question": "The trophy awarded to the NHL champion", "answer": "Stanley Cup", "value": 200 },
+        { "question": "The country that has won the most FIFA World Cups", "answer": "Brazil", "value": 300 },
+        { "question": "The sport played at Wimbledon", "answer": "Tennis", "value": 400 },
+        { "question": "The number of holes in a standard round of golf", "answer": "Eighteen", "value": 500 },
+        { "question": "The international athletic event held every four years", "answer": "Olympics", "value": 600 },
+        { "question": "The boxer known as 'The Greatest'", "answer": "Muhammad Ali", "value": 700 },
+        { "question": "The ancient Greek city that lends its name to a long-distance race", "answer": "Marathon", "value": 800 }
+      ]
+    },
+    {
+      "name": "Literature",
+      "questions": [
+        { "question": "The author of Romeo and Juliet", "answer": "Shakespeare", "value": 100 },
+        { "question": "The young wizard in J.K. Rowling's book series", "answer": "Harry Potter", "value": 200 },
+        { "question": "The whale in Herman Melville's novel", "answer": "Moby Dick", "value": 300 },
+        { "question": "The dystopian George Orwell novel featuring Big Brother", "answer": "1984", "value": 400 },
+        { "question": "The author of Pride and Prejudice", "answer": "Jane Austen", "value": 500 },
+        { "question": "The hobbit who carries the One Ring in Tolkien's trilogy", "answer": "Frodo", "value": 600 },
+        { "question": "The Russian author of War and Peace", "answer": "Tolstoy", "value": 700 },
+        { "question": "The Greek epic poem about the fall of Troy", "answer": "The Iliad", "value": 800 }
+      ]
+    },
+    {
+      "name": "Food & Drink",
+      "questions": [
+        { "question": "The main ingredient in guacamole", "answer": "Avocado", "value": 100 },
+        { "question": "The Italian dish of dough topped with cheese and tomato sauce", "answer": "Pizza", "value": 200 },
+        { "question": "The bean used to make chocolate", "answer": "Cocoa", "value": 300 },
+        { "question": "The French pastry shaped like a crescent", "answer": "Croissant", "value": 400 },
+        { "question": "The Mexican spirit distilled from the agave plant", "answer": "Tequila", "value": 500 },
+        { "question": "The Japanese dish of vinegared rice, often paired with raw fish", "answer": "Sushi", "value": 600 },
+        { "question": "The spice from the Crocus flower, the most expensive by weight", "answer": "Saffron", "value": 700 },
+        { "question": "The country of origin for Champagne", "answer": "France", "value": 800 }
+      ]
+    }
+  ]
+}

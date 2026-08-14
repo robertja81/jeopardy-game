@@ -1,0 +1,109 @@
+{
+  "difficulty": 7,
+  "categories": [
+    {
+      "name": "American Novels",
+      "questions": [
+        { "question": "This novel by Harper Lee is narrated by young Scout Finch", "answer": "To Kill a Mockingbird", "value": 100 },
+        { "question": "This F. Scott Fitzgerald novel follows Jay Gatsby's pursuit of Daisy Buchanan", "answer": "The Great Gatsby", "value": 200 },
+        { "question": "This Herman Melville novel follows Captain Ahab's hunt for a white whale", "answer": "Moby-Dick", "value": 300 },
+        { "question": "This Mark Twain novel follows a boy rafting down the Mississippi River with an escaped slave named Jim", "answer": "The Adventures of Huckleberry Finn", "value": 400 },
+        { "question": "This John Steinbeck novel follows the Joad family fleeing the Dust Bowl for California", "answer": "The Grapes of Wrath", "value": 500 },
+        { "question": "This Toni Morrison novel, set after the Civil War, follows a woman haunted by her past as an enslaved person", "answer": "Beloved", "value": 600 },
+        { "question": "This J.D. Salinger novel follows disaffected teenager Holden Caulfield", "answer": "The Catcher in the Rye", "value": 700 },
+        { "question": "This Ralph Ellison novel's unnamed narrator describes his experience as a Black man in America as being socially unseen", "answer": "Invisible Man", "value": 800 }
+      ]
+    },
+    {
+      "name": "British Novels",
+      "questions": [
+        { "question": "This Jane Austen novel follows Elizabeth Bennet and Mr. Darcy", "answer": "Pride and Prejudice", "value": 100 },
+        { "question": "This Charlotte Bronte novel follows a governess who falls in love with her employer, Mr. Rochester", "answer": "Jane Eyre", "value": 200 },
+        { "question": "This Charles Dickens novel follows orphan Pip and the mysterious benefactor who funds his rise in society", "answer": "Great Expectations", "value": 300 },
+        { "question": "This George Orwell novel depicts a totalitarian future ruled by Big Brother", "answer": "1984", "value": 400 },
+        { "question": "This Mary Shelley novel tells of a scientist who creates a living creature from dead tissue", "answer": "Frankenstein", "value": 500 },
+        { "question": "This Emily Bronte novel follows the tumultuous love between Heathcliff and Catherine on the Yorkshire moors", "answer": "Wuthering Heights", "value": 600 },
+        { "question": "This William Golding novel follows boys stranded on an island who descend into savagery", "answer": "Lord of the Flies", "value": 700 },
+        { "question": "This Virginia Woolf novel follows Clarissa Dalloway over the course of a single day in London", "answer": "Mrs. Dalloway", "value": 800 }
+      ]
+    },
+    {
+      "name": "Poetry",
+      "questions": [
+        { "question": "This American poet wrote \"The Road Not Taken\"", "answer": "Robert Frost", "value": 100 },
+        { "question": "This English Romantic poet wrote \"Ode to a Nightingale\"", "answer": "John Keats", "value": 200 },
+        { "question": "This American poet, reclusive during her lifetime, wrote nearly 1,800 poems, many published posthumously", "answer": "Emily Dickinson", "value": 300 },
+        { "question": "This English poet wrote the epic \"Paradise Lost,\" about the fall of man", "answer": "John Milton", "value": 400 },
+        { "question": "This American poet wrote \"Leaves of Grass,\" a celebration of democracy and the self", "answer": "Walt Whitman", "value": 500 },
+        { "question": "This Persian poet's collection \"The Rubaiyat\" was translated into English by Edward FitzGerald", "answer": "Omar Khayyam", "value": 600 },
+        { "question": "This British poet, killed in World War I, wrote \"Dulce et Decorum Est\"", "answer": "Wilfred Owen", "value": 700 },
+        { "question": "This ancient Greek poet is traditionally credited with composing the Iliad and the Odyssey", "answer": "Homer", "value": 800 }
+      ]
+    },
+    {
+      "name": "Russian Literature",
+      "questions": [
+        { "question": "This author wrote \"Crime and Punishment\"", "answer": "Fyodor Dostoevsky", "value": 100 },
+        { "question": "This author wrote the epic novel \"War and Peace\"", "answer": "Leo Tolstoy", "value": 200 },
+        { "question": "This author wrote \"The Cherry Orchard\" and many acclaimed short stories", "answer": "Anton Chekhov", "value": 300 },
+        { "question": "This author's novel \"Doctor Zhivago\" was set during the Russian Revolution", "answer": "Boris Pasternak", "value": 400 },
+        { "question": "This satirical novel featuring the Devil visiting Soviet Moscow was written by this author", "answer": "Mikhail Bulgakov", "value": 500 },
+        { "question": "This Tolstoy novella follows a dying judge reflecting on the meaninglessness of his life", "answer": "The Death of Ivan Ilyich", "value": 600 },
+        { "question": "This author, who survived the Soviet Gulag system, wrote \"One Day in the Life of Ivan Denisovich\"", "answer": "Aleksandr Solzhenitsyn", "value": 700 },
+        { "question": "This author's novel \"Fathers and Sons\" explores the generational conflict of Russian nihilism", "answer": "Ivan Turgenev", "value": 800 }
+      ]
+    },
+    {
+      "name": "Shakespeare",
+      "questions": [
+        { "question": "In this tragedy, two young lovers from feuding families die in Verona", "answer": "Romeo and Juliet", "value": 100 },
+        { "question": "This tragedy's title character is haunted by his father's ghost and famously asks \"To be, or not to be\"", "answer": "Hamlet", "value": 200 },
+        { "question": "In this tragedy, a Scottish general murders the king after hearing a prophecy from three witches", "answer": "Macbeth", "value": 300 },
+        { "question": "In this tragedy, a Moorish general is manipulated by his ensign Iago into murdering his wife", "answer": "Othello", "value": 400 },
+        { "question": "In this tragedy, an aging king divides his kingdom among his daughters based on flattery", "answer": "King Lear", "value": 500 },
+        { "question": "This comedy features a shipwrecked twin, Viola, who disguises herself as a man named Cesario", "answer": "Twelfth Night", "value": 600 },
+        { "question": "This comedy is set in an enchanted forest where fairies meddle in the affairs of Athenian lovers", "answer": "A Midsummer Night's Dream", "value": 700 },
+        { "question": "This play features the merchant Shylock, who demands a \"pound of flesh\" as debt repayment", "answer": "The Merchant of Venice", "value": 800 }
+      ]
+    },
+    {
+      "name": "Mythology in Literature",
+      "questions": [
+        { "question": "This Homeric epic follows Odysseus's ten-year journey home after the Trojan War", "answer": "The Odyssey", "value": 100 },
+        { "question": "This Roman epic by Virgil follows Aeneas's journey from Troy to found Rome", "answer": "The Aeneid", "value": 200 },
+        { "question": "This Dante Alighieri poem describes a journey through Hell, Purgatory, and Paradise", "answer": "The Divine Comedy", "value": 300 },
+        { "question": "This Milton epic, drawing on the Genesis creation myth, tells of Satan's rebellion and humanity's fall", "answer": "Paradise Lost", "value": 400 },
+        { "question": "This Ovid work retells dozens of Greco-Roman myths involving transformation", "answer": "Metamorphoses", "value": 500 },
+        { "question": "This Mesopotamian epic follows a king's quest for immortality after the death of his friend Enkidu", "answer": "The Epic of Gilgamesh", "value": 600 },
+        { "question": "This Old English epic poem follows a hero who battles the monster Grendel", "answer": "Beowulf", "value": 700 },
+        { "question": "This Finnish national epic, compiled by Elias Lonnrot, inspired Tolkien's Middle-earth mythology", "answer": "The Kalevala", "value": 800 }
+      ]
+    },
+    {
+      "name": "Children's Books",
+      "questions": [
+        { "question": "This Lewis Carroll book follows a girl who falls down a rabbit hole into a fantastical world", "answer": "Alice's Adventures in Wonderland", "value": 100 },
+        { "question": "This C.S. Lewis series begins with children entering a magical land through a wardrobe", "answer": "The Chronicles of Narnia", "value": 200 },
+        { "question": "This E.B. White book follows a pig named Wilbur and a spider named Charlotte", "answer": "Charlotte's Web", "value": 300 },
+        { "question": "This Roald Dahl book follows a boy who wins a golden ticket to tour a candy factory", "answer": "Charlie and the Chocolate Factory", "value": 400 },
+        { "question": "This L. Frank Baum book follows Dorothy's journey down a yellow brick road", "answer": "The Wonderful Wizard of Oz", "value": 500 },
+        { "question": "This J.M. Barrie character is a boy who never grows up and lives in Neverland", "answer": "Peter Pan", "value": 600 },
+        { "question": "This A.A. Milne character is a \"bear of very little brain\" who loves honey", "answer": "Winnie-the-Pooh", "value": 700 },
+        { "question": "This Frances Hodgson Burnett novel follows an orphan named Mary who discovers a walled-off garden", "answer": "The Secret Garden", "value": 800 }
+      ]
+    },
+    {
+      "name": "Playwrights",
+      "questions": [
+        { "question": "This English playwright wrote Hamlet, Macbeth, and dozens of other plays", "answer": "William Shakespeare", "value": 100 },
+        { "question": "This Norwegian playwright, called the father of modern drama, wrote \"A Doll's House\"", "answer": "Henrik Ibsen", "value": 200 },
+        { "question": "This Irish playwright wrote \"Waiting for Godot,\" a hallmark of the Theatre of the Absurd", "answer": "Samuel Beckett", "value": 300 },
+        { "question": "This American playwright wrote \"Death of a Salesman,\" about Willy Loman", "answer": "Arthur Miller", "value": 400 },
+        { "question": "This American playwright wrote \"A Streetcar Named Desire\" and \"The Glass Menagerie\"", "answer": "Tennessee Williams", "value": 500 },
+        { "question": "This ancient Greek playwright wrote \"Oedipus Rex\" and \"Antigone\"", "answer": "Sophocles", "value": 600 },
+        { "question": "This ancient Greek playwright is known for comedies including \"Lysistrata\"", "answer": "Aristophanes", "value": 700 },
+        { "question": "This German playwright developed the theory of \"epic theatre\" and wrote \"Mother Courage and Her Children\"", "answer": "Bertolt Brecht", "value": 800 }
+      ]
+    }
+  ]
+}

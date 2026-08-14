@@ -1,0 +1,109 @@
+{
+  "difficulty": 5,
+  "categories": [
+    {
+      "name": "Classical Composers",
+      "questions": [
+        { "question": "This deaf German composer wrote nine symphonies, including the \"Ode to Joy\"", "answer": "Ludwig van Beethoven", "value": 100 },
+        { "question": "This Austrian child prodigy composed over 600 works before his death at 35", "answer": "Wolfgang Amadeus Mozart", "value": 200 },
+        { "question": "This Baroque German composer wrote the \"Brandenburg Concertos\" and was a master of counterpoint", "answer": "Johann Sebastian Bach", "value": 300 },
+        { "question": "This Russian composer wrote the \"1812 Overture\" and the ballet \"The Nutcracker\"", "answer": "Pyotr Ilyich Tchaikovsky", "value": 400 },
+        { "question": "This Italian composer wrote the operas \"La Boheme\" and \"Madama Butterfly\"", "answer": "Giacomo Puccini", "value": 500 },
+        { "question": "This Polish composer, famous for his piano works, is celebrated for nocturnes and etudes", "answer": "Frederic Chopin", "value": 600 },
+        { "question": "This German composer wrote the \"Ring Cycle,\" a series of four epic operas", "answer": "Richard Wagner", "value": 700 },
+        { "question": "This Baroque Italian composer wrote \"The Four Seasons,\" a set of violin concertos", "answer": "Antonio Vivaldi", "value": 800 }
+      ]
+    },
+    {
+      "name": "Rock Bands",
+      "questions": [
+        { "question": "This British band, formed in Liverpool, included John Lennon and Paul McCartney", "answer": "The Beatles", "value": 100 },
+        { "question": "This British band, fronted by Freddie Mercury, recorded \"Bohemian Rhapsody\"", "answer": "Queen", "value": 200 },
+        { "question": "This American band, fronted by Axl Rose, released \"Appetite for Destruction\" in 1987", "answer": "Guns N' Roses", "value": 300 },
+        { "question": "This British band, fronted by Mick Jagger, is known as one of the longest-running rock acts", "answer": "The Rolling Stones", "value": 400 },
+        { "question": "This Irish rock band, fronted by Bono, released \"The Joshua Tree\" in 1987", "answer": "U2", "value": 500 },
+        { "question": "This American band, fronted by Eddie Vedder, emerged from the Seattle grunge scene", "answer": "Pearl Jam", "value": 600 },
+        { "question": "This British band, fronted by Roger Waters and later David Gilmour, released \"The Dark Side of the Moon\"", "answer": "Pink Floyd", "value": 700 },
+        { "question": "This American band, led by singer Anthony Kiedis, blends rock with funk and rap", "answer": "Red Hot Chili Peppers", "value": 800 }
+      ]
+    },
+    {
+      "name": "Hip-Hop",
+      "questions": [
+        { "question": "This genre of music originated in the Bronx, New York, in the 1970s", "answer": "Hip-hop", "value": 100 },
+        { "question": "This rapper, born Marshall Mathers, is known for albums like \"The Marshall Mathers LP\"", "answer": "Eminem", "value": 200 },
+        { "question": "This rapper and entrepreneur founded Roc-A-Fella Records and is married to Beyonce", "answer": "Jay-Z", "value": 300 },
+        { "question": "This West Coast rapper released \"Doggystyle\" and popularized G-funk", "answer": "Snoop Dogg", "value": 400 },
+        { "question": "This rapper, born Chris Wallace, was a central figure in the East Coast hip-hop scene of the 1990s", "answer": "The Notorious B.I.G.", "value": 500 },
+        { "question": "This rapper and producer released \"The College Dropout\" in 2004 and later became known as Ye", "answer": "Kanye West", "value": 600 },
+        { "question": "This female rapper, from Trinidad, is known for hits like \"Super Bass\" and \"Anaconda\"", "answer": "Nicki Minaj", "value": 700 },
+        { "question": "This hip-hop group, including Dr. Dre and Ice Cube, pioneered gangsta rap in the late 1980s", "answer": "N.W.A", "value": 800 }
+      ]
+    },
+    {
+      "name": "Jazz",
+      "questions": [
+        { "question": "This trumpet player and singer, known for his gravelly voice, sang \"What a Wonderful World\"", "answer": "Louis Armstrong", "value": 100 },
+        { "question": "This style of jazz, associated with big bands, was popular from the 1930s to 1940s", "answer": "Swing", "value": 200 },
+        { "question": "This jazz pianist and composer wrote \"Take Five\" and \"Blue Rondo a la Turk\"", "answer": "Dave Brubeck", "value": 300 },
+        { "question": "This trumpet player pioneered modal jazz with his album \"Kind of Blue\"", "answer": "Miles Davis", "value": 400 },
+        { "question": "This singer, known as \"the First Lady of Song,\" was famous for her scat singing", "answer": "Ella Fitzgerald", "value": 500 },
+        { "question": "This saxophonist, a pioneer of bebop, is known by the nickname \"Bird\"", "answer": "Charlie Parker", "value": 600 },
+        { "question": "This pianist and bandleader, born Edward Kennedy Ellington, led a famed orchestra for decades", "answer": "Duke Ellington", "value": 700 },
+        { "question": "This saxophonist recorded the album \"A Love Supreme\" in 1965", "answer": "John Coltrane", "value": 800 }
+      ]
+    },
+    {
+      "name": "Pop Stars",
+      "questions": [
+        { "question": "This singer is known as the \"King of Pop\" and released the album \"Thriller\"", "answer": "Michael Jackson", "value": 100 },
+        { "question": "This singer, known for hits like \"Like a Virgin,\" is often called the \"Queen of Pop\"", "answer": "Madonna", "value": 200 },
+        { "question": "This singer rose to fame with Destiny's Child before a hugely successful solo career", "answer": "Beyonce", "value": 300 },
+        { "question": "This singer-songwriter released the album \"1989\" and is known for hits like \"Shake It Off\"", "answer": "Taylor Swift", "value": 400 },
+        { "question": "This singer, born Stefani Germanotta, is known by a stage name inspired by a Queen song", "answer": "Lady Gaga", "value": 500 },
+        { "question": "This British singer released the album \"21,\" featuring the hit \"Someone Like You\"", "answer": "Adele", "value": 600 },
+        { "question": "This Canadian singer rose to fame as a teenager with the song \"Baby\"", "answer": "Justin Bieber", "value": 700 },
+        { "question": "This singer, part of a Puerto Rican family act before going solo, released \"Let's Get Loud\"", "answer": "Jennifer Lopez", "value": 800 }
+      ]
+    },
+    {
+      "name": "Musical Instruments",
+      "questions": [
+        { "question": "This stringed instrument, played with a bow, is the smallest in the standard orchestra string section", "answer": "Violin", "value": 100 },
+        { "question": "This keyboard instrument has 88 keys and produces sound by hammers striking strings", "answer": "Piano", "value": 200 },
+        { "question": "This brass instrument uses a slide to change pitch, rather than valves", "answer": "Trombone", "value": 300 },
+        { "question": "This large stringed instrument is plucked or bowed and forms the bass foundation of an orchestra's string section", "answer": "Double bass", "value": 400 },
+        { "question": "This woodwind instrument uses a double reed and produces a distinctively nasal, penetrating tone", "answer": "Oboe", "value": 500 },
+        { "question": "This West African stringed instrument, a precursor to the banjo, has 21 strings and a gourd resonator", "answer": "The Kora", "value": 600 },
+        { "question": "This percussion instrument consists of tuned wooden bars struck with mallets", "answer": "Xylophone", "value": 700 },
+        { "question": "This Australian Aboriginal wind instrument produces a continuous drone using circular breathing", "answer": "Didgeridoo", "value": 800 }
+      ]
+    },
+    {
+      "name": "Broadway Musicals",
+      "questions": [
+        { "question": "This musical, about a founding father, was written by and starred Lin-Manuel Miranda", "answer": "Hamilton", "value": 100 },
+        { "question": "This musical follows orphan Annie and her dog Sandy in Depression-era New York", "answer": "Annie", "value": 200 },
+        { "question": "This musical, based on a Victor Hugo novel, follows ex-convict Jean Valjean", "answer": "Les Miserables", "value": 300 },
+        { "question": "This musical follows a masked figure haunting the Paris Opera House", "answer": "The Phantom of the Opera", "value": 400 },
+        { "question": "This musical follows green-skinned Elphaba before she becomes the Wicked Witch of the West", "answer": "Wicked", "value": 500 },
+        { "question": "This musical, set during the Vietnam War era, features the song \"Aquarius\"", "answer": "Hair", "value": 600 },
+        { "question": "This musical follows Simba's journey to reclaim his throne, adapted from a Disney animated film", "answer": "The Lion King", "value": 700 },
+        { "question": "This musical, based on Puccini's opera \"La Boheme,\" follows a group of artists in New York's East Village", "answer": "Rent", "value": 800 }
+      ]
+    },
+    {
+      "name": "One-Hit Wonders",
+      "questions": [
+        { "question": "This 1997 novelty dance song by Los Del Rio became a worldwide phenomenon", "answer": "Macarena", "value": 100 },
+        { "question": "This English band's only major U.S. hit was 1982's \"Come On Eileen\"", "answer": "Dexys Midnight Runners", "value": 200 },
+        { "question": "This sibling trio's only major hit was 1997's \"MMMBop\"", "answer": "Hanson", "value": 300 },
+        { "question": "This Norwegian band's 1985 hit \"Take On Me\" is remembered for its pencil-sketch animated video", "answer": "a-ha", "value": 400 },
+        { "question": "This artist's 1997 song \"Return of the Mack\" was his only major U.S. hit", "answer": "Mark Morrison", "value": 500 },
+        { "question": "This American singer's 1979 disco hit \"Ring My Bell\" was her only major chart success", "answer": "Anita Ward", "value": 600 },
+        { "question": "This band's 1997 hit \"Tubthumping,\" with the line \"I get knocked down, but I get up again,\" was their only major U.S. hit", "answer": "Chumbawamba", "value": 700 },
+        { "question": "This American rapper's 1990 hit \"Ice Ice Baby\" was the first hip-hop single to top the Billboard Hot 100", "answer": "Vanilla Ice", "value": 800 }
+      ]
+    }
+  ]
+}

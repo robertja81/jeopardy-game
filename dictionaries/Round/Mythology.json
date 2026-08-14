@@ -1,0 +1,109 @@
+{
+  "difficulty": 7,
+  "categories": [
+    {
+      "name": "Greek Mythology",
+      "questions": [
+        { "question": "This king of the Greek gods rules from Mount Olympus", "answer": "Zeus", "value": 100 },
+        { "question": "This goddess of wisdom sprang fully formed from the head of Zeus", "answer": "Athena", "value": 200 },
+        { "question": "This hero completed twelve labors, including slaying the Nemean lion", "answer": "Heracles", "value": 300 },
+        { "question": "This winged horse sprang from the blood of the slain Medusa", "answer": "Pegasus", "value": 400 },
+        { "question": "This god of the underworld rules over the realm of the dead", "answer": "Hades", "value": 500 },
+        { "question": "This Trojan War hero was invulnerable except for his heel", "answer": "Achilles", "value": 600 },
+        { "question": "This Titan was punished by Zeus to hold up the sky for eternity", "answer": "Atlas", "value": 700 },
+        { "question": "This craftsman built wings of feathers and wax for himself and his son Icarus to escape Crete", "answer": "Daedalus", "value": 800 }
+      ]
+    },
+    {
+      "name": "Norse Mythology",
+      "questions": [
+        { "question": "This one-eyed chief god of the Norse pantheon is associated with wisdom and war", "answer": "Odin", "value": 100 },
+        { "question": "This hammer-wielding god of thunder is one of the most popular Norse deities", "answer": "Thor", "value": 200 },
+        { "question": "This trickster god is known for shapeshifting and causing mischief among the gods", "answer": "Loki", "value": 300 },
+        { "question": "This nine-realm cosmic tree connects all worlds in Norse mythology", "answer": "Yggdrasil", "value": 400 },
+        { "question": "This prophesied apocalyptic battle marks the end of the world and death of many gods", "answer": "Ragnarok", "value": 500 },
+        { "question": "This majestic hall in Asgard houses the souls of warriors who died bravely in battle", "answer": "Valhalla", "value": 600 },
+        { "question": "This giant wolf, a child of Loki, is fated to kill Odin during Ragnarok", "answer": "Fenrir", "value": 700 },
+        { "question": "These female figures decide who lives and dies in battle, choosing who is taken to Valhalla", "answer": "The Valkyries", "value": 800 }
+      ]
+    },
+    {
+      "name": "Egyptian Mythology",
+      "questions": [
+        { "question": "This falcon-headed god of the sky and kingship is associated with the pharaohs", "answer": "Horus", "value": 100 },
+        { "question": "This jackal-headed god presides over mummification and the afterlife", "answer": "Anubis", "value": 200 },
+        { "question": "This sun god was considered the chief deity of ancient Egypt", "answer": "Ra", "value": 300 },
+        { "question": "This goddess of magic and motherhood is the wife of Osiris and mother of Horus", "answer": "Isis", "value": 400 },
+        { "question": "This god of the underworld judges the souls of the dead by weighing their hearts", "answer": "Osiris", "value": 500 },
+        { "question": "This chaos deity, god of storms and the desert, murdered his brother Osiris", "answer": "Set", "value": 600 },
+        { "question": "This goddess with the head of a lioness represents war and healing", "answer": "Sekhmet", "value": 700 },
+        { "question": "This sacred beetle, associated with the sun god's daily journey, symbolized rebirth", "answer": "The Scarab", "value": 800 }
+      ]
+    },
+    {
+      "name": "Roman Mythology",
+      "questions": [
+        { "question": "This king of the Roman gods is the equivalent of the Greek Zeus", "answer": "Jupiter", "value": 100 },
+        { "question": "This god of war is the Roman equivalent of Ares", "answer": "Mars", "value": 200 },
+        { "question": "This goddess of love and beauty is the Roman equivalent of Aphrodite", "answer": "Venus", "value": 300 },
+        { "question": "This messenger god, equivalent to Hermes, gives his name to a planet", "answer": "Mercury", "value": 400 },
+        { "question": "This legendary founder of Rome was said to have been raised by a she-wolf alongside his brother Remus", "answer": "Romulus", "value": 500 },
+        { "question": "This Trojan hero's journey to found Rome is told in Virgil's epic", "answer": "Aeneas", "value": 600 },
+        { "question": "This two-faced god of beginnings, transitions, and doorways gives his name to the first month of the year", "answer": "Janus", "value": 700 },
+        { "question": "This goddess of the hearth was tended by six virgin priestesses in Rome", "answer": "Vesta", "value": 800 }
+      ]
+    },
+    {
+      "name": "Mythical Creatures",
+      "questions": [
+        { "question": "This creature is half man, half horse, known in Greek myth for wisdom in the case of Chiron", "answer": "Centaur", "value": 100 },
+        { "question": "This fire-breathing reptilian creature appears in myths across many cultures", "answer": "Dragon", "value": 200 },
+        { "question": "This creature has the body of a lion and the head of a human, famously depicted at Giza", "answer": "Sphinx", "value": 300 },
+        { "question": "This snake-haired woman turns onlookers to stone with her gaze", "answer": "Medusa", "value": 400 },
+        { "question": "This horse-like creature has a single spiraled horn on its forehead", "answer": "Unicorn", "value": 500 },
+        { "question": "This three-headed dog guards the entrance to the Greek underworld", "answer": "Cerberus", "value": 600 },
+        { "question": "This bird periodically bursts into flame and is reborn from its own ashes", "answer": "The Phoenix", "value": 700 },
+        { "question": "This half-woman, half-bird creature lured sailors to their doom with enchanting songs", "answer": "Siren", "value": 800 }
+      ]
+    },
+    {
+      "name": "Hindu Mythology",
+      "questions": [
+        { "question": "This elephant-headed god is worshipped as the remover of obstacles", "answer": "Ganesha", "value": 100 },
+        { "question": "This god, part of the Trimurti, is known as \"the Destroyer\" and is often depicted dancing", "answer": "Shiva", "value": 200 },
+        { "question": "This preserver god has had avatars including Rama and Krishna", "answer": "Vishnu", "value": 300 },
+        { "question": "This monkey god is a central figure in the epic Ramayana, known for his devotion to Rama", "answer": "Hanuman", "value": 400 },
+        { "question": "This goddess of wealth and prosperity is often depicted seated on a lotus", "answer": "Lakshmi", "value": 500 },
+        { "question": "This epic poem tells of a war between two families, the Pandavas and the Kauravas", "answer": "The Mahabharata", "value": 600 },
+        { "question": "This epic poem follows Prince Rama's quest to rescue his wife Sita from the demon king Ravana", "answer": "The Ramayana", "value": 700 },
+        { "question": "This four-headed god is considered the creator within the Hindu Trimurti", "answer": "Brahma", "value": 800 }
+      ]
+    },
+    {
+      "name": "Celtic Mythology",
+      "questions": [
+        { "question": "This order of priests and scholars held religious and legal authority in ancient Celtic society", "answer": "Druids", "value": 100 },
+        { "question": "This Irish mythological warrior hero is famed for his exploits in the Ulster Cycle", "answer": "Cu Chulainn", "value": 200 },
+        { "question": "This otherworldly race of supernatural beings in Irish myth includes the goddess Danu's descendants", "answer": "The Tuatha De Danann", "value": 300 },
+        { "question": "This magical sword, associated with King Arthur, was given to him by the Lady of the Lake in some tellings", "answer": "Excalibur", "value": 400 },
+        { "question": "This Welsh mythological collection of tales is a major source for Celtic mythology", "answer": "The Mabinogion", "value": 500 },
+        { "question": "This Irish goddess of war and fate often appears as a crow on the battlefield", "answer": "The Morrigan", "value": 600 },
+        { "question": "This legendary king of Britain is said to sleep, awaiting a return in his country's hour of need", "answer": "King Arthur", "value": 700 },
+        { "question": "This Celtic festival, marking the end of harvest season, is considered a precursor to modern Halloween", "answer": "Samhain", "value": 800 }
+      ]
+    },
+    {
+      "name": "Mesopotamian Mythology",
+      "questions": [
+        { "question": "This king of Uruk, hero of the oldest known epic, sought immortality after his friend's death", "answer": "Gilgamesh", "value": 100 },
+        { "question": "This Mesopotamian goddess of love, war, and fertility is associated with the planet Venus", "answer": "Ishtar", "value": 200 },
+        { "question": "This Babylonian creation epic describes the god Marduk defeating the chaos monster Tiamat", "answer": "The Enuma Elish", "value": 300 },
+        { "question": "This god of storms, wisdom, and freshwater was chief deity of the Sumerian city of Eridu", "answer": "Enki", "value": 400 },
+        { "question": "This survivor of a great flood, warned by a god, built a boat to save his family and animals, in a myth predating Noah", "answer": "Utnapishtim", "value": 500 },
+        { "question": "This Sumerian sky god was considered the supreme deity of the pantheon", "answer": "Anu", "value": 600 },
+        { "question": "This goddess of the underworld ruled over the land of the dead in Sumerian myth", "answer": "Ereshkigal", "value": 700 },
+        { "question": "This Babylonian god of storms and agriculture became chief deity after defeating Tiamat", "answer": "Marduk", "value": 800 }
+      ]
+    }
+  ]
+}

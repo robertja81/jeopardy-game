@@ -1,0 +1,109 @@
+{
+  "difficulty": 6,
+  "categories": [
+    {
+      "name": "Renaissance Art",
+      "questions": [
+        { "question": "This artist painted the Mona Lisa", "answer": "Leonardo da Vinci", "value": 100 },
+        { "question": "This artist painted the ceiling of the Sistine Chapel", "answer": "Michelangelo", "value": 200 },
+        { "question": "This artist painted \"The Birth of Venus,\" depicting the goddess emerging from the sea on a shell", "answer": "Sandro Botticelli", "value": 300 },
+        { "question": "This High Renaissance painter's \"The School of Athens\" depicts famous Greek philosophers", "answer": "Raphael", "value": 400 },
+        { "question": "This Northern Renaissance artist painted \"The Arnolfini Portrait\"", "answer": "Jan van Eyck", "value": 500 },
+        { "question": "This term describes the artistic and cultural rebirth in Europe roughly from the 14th to 17th centuries", "answer": "The Renaissance", "value": 600 },
+        { "question": "This Italian city, home to the Medici family, was a major center of Renaissance art and patronage", "answer": "Florence", "value": 700 },
+        { "question": "This technique, mastered by Leonardo, uses subtle gradations of light and shadow to model form", "answer": "Sfumato", "value": 800 }
+      ]
+    },
+    {
+      "name": "Impressionism",
+      "questions": [
+        { "question": "This French movement, named after a Monet painting, emphasized light and everyday scenes", "answer": "Impressionism", "value": 100 },
+        { "question": "This artist painted numerous water lily scenes in his garden at Giverny", "answer": "Claude Monet", "value": 200 },
+        { "question": "This artist, famous for ballet dancer paintings, was also a skilled sculptor", "answer": "Edgar Degas", "value": 300 },
+        { "question": "This artist's 1863 painting \"Luncheon on the Grass\" scandalized the Paris art establishment", "answer": "Edouard Manet", "value": 400 },
+        { "question": "This artist painted \"A Sunday Afternoon on the Island of La Grande Jatte\" using pointillism", "answer": "Georges Seurat", "value": 500 },
+        { "question": "This female American Impressionist often painted scenes of mothers and children", "answer": "Mary Cassatt", "value": 600 },
+        { "question": "This artist painted \"Bal du moulin de la Galette,\" a scene of Parisians dancing outdoors", "answer": "Pierre-Auguste Renoir", "value": 700 },
+        { "question": "This 1874 exhibition, featuring Monet's \"Impression, Sunrise,\" gave the movement its name", "answer": "The First Impressionist Exhibition", "value": 800 }
+      ]
+    },
+    {
+      "name": "Modern Art",
+      "questions": [
+        { "question": "This Spanish artist co-founded Cubism and painted \"Guernica\"", "answer": "Pablo Picasso", "value": 100 },
+        { "question": "This Dutch post-Impressionist painted \"The Starry Night\"", "answer": "Vincent van Gogh", "value": 200 },
+        { "question": "This Spanish surrealist is known for melting clocks in \"The Persistence of Memory\"", "answer": "Salvador Dali", "value": 300 },
+        { "question": "This American artist is famous for his drip-painting technique and works like \"No. 5, 1948\"", "answer": "Jackson Pollock", "value": 400 },
+        { "question": "This Norwegian artist painted \"The Scream\"", "answer": "Edvard Munch", "value": 500 },
+        { "question": "This Mexican artist, known for self-portraits, was married to Diego Rivera", "answer": "Frida Kahlo", "value": 600 },
+        { "question": "This American pop artist famously painted Campbell's Soup Cans", "answer": "Andy Warhol", "value": 700 },
+        { "question": "This Russian-French artist blended Cubism, Fauvism, and folk imagery in dreamlike scenes like \"I and the Village\"", "answer": "Marc Chagall", "value": 800 }
+      ]
+    },
+    {
+      "name": "Sculpture",
+      "questions": [
+        { "question": "This Italian Renaissance sculptor carved the marble statue of David", "answer": "Michelangelo", "value": 100 },
+        { "question": "This ancient Greek statue of an armless woman is displayed at the Louvre", "answer": "Venus de Milo", "value": 200 },
+        { "question": "This French sculptor created \"The Thinker\"", "answer": "Auguste Rodin", "value": 300 },
+        { "question": "This colossal statue, a gift from France, stands on Liberty Island in New York Harbor", "answer": "The Statue of Liberty", "value": 400 },
+        { "question": "This ancient Egyptian limestone statue near the Giza pyramids has the body of a lion and head of a pharaoh", "answer": "The Great Sphinx", "value": 500 },
+        { "question": "This modern sculptor is known for large-scale stainless steel balloon animal sculptures", "answer": "Jeff Koons", "value": 600 },
+        { "question": "This Italian Baroque sculptor created \"The Ecstasy of Saint Teresa\"", "answer": "Gian Lorenzo Bernini", "value": 700 },
+        { "question": "This ancient Greek bronze statue, lost and known mainly through Roman copies, depicted a discus thrower", "answer": "Discobolus", "value": 800 }
+      ]
+    },
+    {
+      "name": "Architecture",
+      "questions": [
+        { "question": "This Parisian iron lattice tower was built for the 1889 World's Fair", "answer": "The Eiffel Tower", "value": 100 },
+        { "question": "This white marble mausoleum in India was built by Shah Jahan for his wife", "answer": "The Taj Mahal", "value": 200 },
+        { "question": "This ancient Roman amphitheater hosted gladiator battles", "answer": "The Colosseum", "value": 300 },
+        { "question": "This Spanish architect designed the still-unfinished Sagrada Familia basilica in Barcelona", "answer": "Antoni Gaudi", "value": 400 },
+        { "question": "This American architect designed \"Fallingwater,\" a house built over a waterfall", "answer": "Frank Lloyd Wright", "value": 500 },
+        { "question": "This ancient Athenian temple, dedicated to Athena, sits atop the Acropolis", "answer": "The Parthenon", "value": 600 },
+        { "question": "This modernist architect, known for glass-and-steel skyscrapers, coined the phrase \"less is more\"", "answer": "Ludwig Mies van der Rohe", "value": 700 },
+        { "question": "This Finnish-American architect designed the St. Louis Gateway Arch", "answer": "Eero Saarinen", "value": 800 }
+      ]
+    },
+    {
+      "name": "Photography",
+      "questions": [
+        { "question": "This photographic process, announced in 1839, was one of the earliest practical methods", "answer": "The Daguerreotype", "value": 100 },
+        { "question": "This American photographer is renowned for black-and-white images of Yosemite and the American West", "answer": "Ansel Adams", "value": 200 },
+        { "question": "This Depression-era photograph, \"Migrant Mother,\" was taken by this American photographer", "answer": "Dorothea Lange", "value": 300 },
+        { "question": "This French photographer coined the term \"the decisive moment\" to describe candid street photography", "answer": "Henri Cartier-Bresson", "value": 400 },
+        { "question": "This camera type, developed by Edwin Land's company, produced instant prints", "answer": "Polaroid", "value": 500 },
+        { "question": "This iconic 1945 photograph shows U.S. Marines raising a flag on a Pacific island during WWII", "answer": "Raising the Flag on Iwo Jima", "value": 600 },
+        { "question": "This war photographer co-founded the Magnum Photos agency and famously photographed the D-Day landings", "answer": "Robert Capa", "value": 700 },
+        { "question": "This term for the size of a camera lens opening, which controls how much light passes through, is measured in these numbers", "answer": "F-stop", "value": 800 }
+      ]
+    },
+    {
+      "name": "Art Movements",
+      "questions": [
+        { "question": "This early 20th-century movement, pioneered by Picasso and Braque, depicted subjects from multiple angles at once", "answer": "Cubism", "value": 100 },
+        { "question": "This movement, emphasizing dreams and the unconscious mind, included artists like Dali and Magritte", "answer": "Surrealism", "value": 200 },
+        { "question": "This movement, based on capturing light and color, included artists like Monet and Renoir", "answer": "Impressionism", "value": 300 },
+        { "question": "This early 20th-century movement used bright, unnatural colors and bold brushwork, led by Matisse", "answer": "Fauvism", "value": 400 },
+        { "question": "This American movement of the mid-20th century emphasized spontaneous, abstract gesture, including Pollock", "answer": "Abstract Expressionism", "value": 500 },
+        { "question": "This movement, emerging in the 1960s, drew on advertising and popular culture imagery", "answer": "Pop Art", "value": 600 },
+        { "question": "This early 20th-century Italian movement celebrated speed, technology, and modernity", "answer": "Futurism", "value": 700 },
+        { "question": "This anti-establishment art movement, born out of disgust with WWI, used absurdity and nonsense", "answer": "Dada", "value": 800 }
+      ]
+    },
+    {
+      "name": "Famous Museums",
+      "questions": [
+        { "question": "This Paris museum, housed in a former royal palace, displays the Mona Lisa", "answer": "The Louvre", "value": 100 },
+        { "question": "This New York museum, known by its initials, is a major modern and contemporary art museum", "answer": "The Museum of Modern Art", "value": 200 },
+        { "question": "This Florence museum houses Botticelli's \"The Birth of Venus\"", "answer": "The Uffizi Gallery", "value": 300 },
+        { "question": "This Madrid museum houses many works by Velazquez and Goya", "answer": "The Prado Museum", "value": 400 },
+        { "question": "This London museum, founded in 1753, houses the Rosetta Stone and Elgin Marbles", "answer": "The British Museum", "value": 500 },
+        { "question": "This Amsterdam museum is devoted to the works of a single Dutch post-Impressionist painter", "answer": "The Van Gogh Museum", "value": 600 },
+        { "question": "This St. Petersburg museum, housed in the Winter Palace, is one of the largest art museums in the world", "answer": "The Hermitage Museum", "value": 700 },
+        { "question": "This Bilbao museum, designed by Frank Gehry, is known for its titanium curved exterior", "answer": "The Guggenheim Museum Bilbao", "value": 800 }
+      ]
+    }
+  ]
+}

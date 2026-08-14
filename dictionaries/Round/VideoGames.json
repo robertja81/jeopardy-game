@@ -1,0 +1,109 @@
+{
+  "difficulty": 4,
+  "categories": [
+    {
+      "name": "Nintendo",
+      "questions": [
+        { "question": "The Italian plumber who is Nintendo's mascot", "answer": "Mario", "value": 100 },
+        { "question": "The forest fairy who guides Link in most Legend of Zelda games", "answer": "Navi", "value": 200 },
+        { "question": "This 2017 console can be used as a handheld or docked to a TV", "answer": "Nintendo Switch", "value": 300 },
+        { "question": "This spiky-shelled turtle king is Mario's primary antagonist", "answer": "Bowser", "value": 400 },
+        { "question": "This 1996 N64 launch title was one of the first fully 3D platformers", "answer": "Super Mario 64", "value": 500 },
+        { "question": "This pink, round character can inhale enemies to copy their abilities", "answer": "Kirby", "value": 600 },
+        { "question": "This 1989 handheld popularized portable gaming with games like Tetris", "answer": "Game Boy", "value": 700 },
+        { "question": "This barrel-throwing ape was the villain of the 1981 arcade game that also introduced Mario", "answer": "Donkey Kong", "value": 800 }
+      ]
+    },
+    {
+      "name": "PlayStation",
+      "questions": [
+        { "question": "Sony's home video game console brand, first released in 1994", "answer": "PlayStation", "value": 100 },
+        { "question": "This bandicoot was Sony's unofficial mascot during the PS1 era", "answer": "Crash Bandicoot", "value": 200 },
+        { "question": "This 2018 PS4 exclusive follows Kratos and his son Atreus through Norse mythology", "answer": "God of War", "value": 300 },
+        { "question": "This tomb-raiding archaeologist debuted on the original PlayStation in 1996", "answer": "Lara Croft", "value": 400 },
+        { "question": "This online service, launched in 2006, connects PlayStation consoles for multiplayer", "answer": "PlayStation Network", "value": 500 },
+        { "question": "This 2013 open-world heist game by Rockstar Games launched on PS3", "answer": "Grand Theft Auto V", "value": 600 },
+        { "question": "This studio created the Uncharted and The Last of Us series", "answer": "Naughty Dog", "value": 700 },
+        { "question": "This PS5 controller introduced adaptive triggers and haptic feedback in 2020", "answer": "DualSense", "value": 800 }
+      ]
+    },
+    {
+      "name": "Retro Arcade",
+      "questions": [
+        { "question": "This 1980 Namco game has players guiding a yellow circle that eats dots while avoiding ghosts", "answer": "Pac-Man", "value": 100 },
+        { "question": "This 1978 Taito game has players shooting rows of descending aliens", "answer": "Space Invaders", "value": 200 },
+        { "question": "This 1981 Nintendo arcade game introduced both Mario and Donkey Kong", "answer": "Donkey Kong", "value": 300 },
+        { "question": "This 1972 Atari game simulating table tennis was one of the first commercially successful video games", "answer": "Pong", "value": 400 },
+        { "question": "This fighting game franchise, debuting in 1991, stars Ryu and Ken", "answer": "Street Fighter", "value": 500 },
+        { "question": "In Pac-Man, the four ghosts are Blinky, Pinky, Inky, and this one", "answer": "Clyde", "value": 600 },
+        { "question": "This 1979 Atari vector-graphics game has players shooting drifting space rocks", "answer": "Asteroids", "value": 700 },
+        { "question": "This 1981 Konami arcade game has players guiding a frog across a busy road and river", "answer": "Frogger", "value": 800 }
+      ]
+    },
+    {
+      "name": "RPGs",
+      "questions": [
+        { "question": "This genre's abbreviation stands for a game genre where players develop a character's stats over time", "answer": "RPG", "value": 100 },
+        { "question": "This Square Enix series, beginning in 1987, has had numbered mainline entries through XVI", "answer": "Final Fantasy", "value": 200 },
+        { "question": "This Bethesda series' 2011 entry is set in the province of Skyrim", "answer": "The Elder Scrolls", "value": 300 },
+        { "question": "This 1997 Japanese RPG follows Cloud Strife fighting the Shinra Corporation", "answer": "Final Fantasy VII", "value": 400 },
+        { "question": "This CD Projekt Red series follows monster hunter Geralt of Rivia", "answer": "The Witcher", "value": 500 },
+        { "question": "This 2011 Bethesda RPG's tagline is \"Live Another Life, in Another World\"", "answer": "Skyrim", "value": 600 },
+        { "question": "This BioWare fantasy RPG series includes companions like Alistair and Morrigan", "answer": "Dragon Age", "value": 700 },
+        { "question": "This turn-based RPG mechanic determines which combatant acts first, usually based on a speed stat", "answer": "Turn order", "value": 800 }
+      ]
+    },
+    {
+      "name": "Esports & Streaming",
+      "questions": [
+        { "question": "This live-streaming platform, launched in 2011, is the most popular service for watching people play games", "answer": "Twitch", "value": 100 },
+        { "question": "This term describes organized, competitive video gaming, often played professionally", "answer": "Esports", "value": 200 },
+        { "question": "This Riot Games multiplayer online battle arena is one of the most-watched esports titles worldwide", "answer": "League of Legends", "value": 300 },
+        { "question": "This Epic Games battle royale title popularized building mechanics in competitive play", "answer": "Fortnite", "value": 400 },
+        { "question": "This annual event crowns the world champion team of League of Legends", "answer": "Worlds", "value": 500 },
+        { "question": "This Valve tactical shooter's top annual tournament is called \"the Major\"", "answer": "Counter-Strike", "value": 600 },
+        { "question": "This term describes performing well under pressure, especially a game-winning play", "answer": "Clutch", "value": 700 },
+        { "question": "This annual Dota 2 tournament has featured some of the largest prize pools in esports history", "answer": "The International", "value": 800 }
+      ]
+    },
+    {
+      "name": "Game Designers",
+      "questions": [
+        { "question": "This Nintendo designer created Mario, The Legend of Zelda, and Donkey Kong", "answer": "Shigeru Miyamoto", "value": 100 },
+        { "question": "This American designer created SimCity and The Sims", "answer": "Will Wright", "value": 200 },
+        { "question": "This Minecraft creator is also known by his online handle \"Notch\"", "answer": "Markus Persson", "value": 300 },
+        { "question": "This id Software co-founder helped create Doom and Quake", "answer": "John Carmack", "value": 400 },
+        { "question": "This Japanese designer created the Metal Gear series", "answer": "Hideo Kojima", "value": 500 },
+        { "question": "This co-founder of Valve helped create Half-Life and Portal", "answer": "Gabe Newell", "value": 600 },
+        { "question": "This designer created Braid and The Witness, both acclaimed indie puzzle games", "answer": "Jonathan Blow", "value": 700 },
+        { "question": "This designer, a longtime Nintendo collaborator, helped create the original Legend of Zelda alongside Miyamoto", "answer": "Takashi Tezuka", "value": 800 }
+      ]
+    },
+    {
+      "name": "Minecraft",
+      "questions": [
+        { "question": "This blocky sandbox game has players mining resources and building structures", "answer": "Minecraft", "value": 100 },
+        { "question": "This highly explosive green creature is one of Minecraft's most iconic hostile mobs", "answer": "Creeper", "value": 200 },
+        { "question": "This gem, found deep underground, crafts the strongest tools and armor in the base game", "answer": "Diamond", "value": 300 },
+        { "question": "This lava-filled dimension is reached through a portal built from obsidian", "answer": "The Nether", "value": 400 },
+        { "question": "This flying boss is fought in the End dimension, reached through a stronghold portal", "answer": "Ender Dragon", "value": 500 },
+        { "question": "This black volcanic-glass block is required to build a Nether portal frame", "answer": "Obsidian", "value": 600 },
+        { "question": "This passive, wool-bearing mob can be sheared and dyed different colors", "answer": "Sheep", "value": 700 },
+        { "question": "This Swedish studio, founded by Markus Persson, originally developed Minecraft before Microsoft acquired it in 2014", "answer": "Mojang", "value": 800 }
+      ]
+    },
+    {
+      "name": "Indie Games",
+      "questions": [
+        { "question": "This 2016 farming-life simulation set in Pelican Town was created almost single-handedly by developer Eric Barone", "answer": "Stardew Valley", "value": 100 },
+        { "question": "This 2018 platformer follows Madeline as she climbs a treacherous mountain", "answer": "Celeste", "value": 200 },
+        { "question": "This 2017 metroidvania is set in the insect kingdom of Hallownest", "answer": "Hollow Knight", "value": 300 },
+        { "question": "This 2011 puzzle-platformer follows a silhouetted boy through a monochrome, dangerous forest", "answer": "Limbo", "value": 400 },
+        { "question": "This 2015 game follows the spirit guardian Ori through the Forest of Nibel", "answer": "Ori and the Blind Forest", "value": 500 },
+        { "question": "This 2017 rogue-like deck-building game has players battling their way up a spire using cards", "answer": "Slay the Spire", "value": 600 },
+        { "question": "This 2011 game by Supergiant Games follows an amnesiac hero known only as \"the Kid\" through the floating city of Caelondia", "answer": "Bastion", "value": 700 },
+        { "question": "This 2015 RPG, known for letting players \"spare\" or fight enemies, was created almost entirely by Toby Fox", "answer": "Undertale", "value": 800 }
+      ]
+    }
+  ]
+}
